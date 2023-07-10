@@ -89,7 +89,8 @@ process.REPACKRAWoutput = cms.OutputModule("PoolOutputModule",
 
 # Other statements
 from Configuration.AlCa.GlobalTag import GlobalTag
-process.GlobalTag = GlobalTag(process.GlobalTag, 'auto:run3_data_prompt', '')
+#process.GlobalTag = GlobalTag(process.GlobalTag, 'auto:run3_data_prompt', '')
+process.GlobalTag = GlobalTag(process.GlobalTag, '124X_dataRun3_Prompt_v10','')
 #process.GlobalTag = GlobalTag(process.GlobalTag, '124X_dataRun3_HLT_v7','')
 useHLTSiStripTags = False
 if useHLTSiStripTags:

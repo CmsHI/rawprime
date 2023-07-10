@@ -89,7 +89,8 @@ process.FEVTDEBUGHLToutput = cms.OutputModule("PoolOutputModule",
 
 # Other statements
 from Configuration.AlCa.GlobalTag import GlobalTag
-process.GlobalTag = GlobalTag(process.GlobalTag, 'auto:run3_data_prompt', '')
+#process.GlobalTag = GlobalTag(process.GlobalTag, 'auto:run3_data_prompt', '')
+process.GlobalTag = GlobalTag(process.GlobalTag, '124X_dataRun3_Prompt_v10', '')
 useHLTSiStripTags = False
 if useHLTSiStripTags:
     print ('overwriting prompt SiSTrip tags with HLT ones')
@@ -122,10 +123,16 @@ associatePatAlgosToolsTask(process)
 from Configuration.Applications.ConfigBuilder import MassReplaceInputTag
 MassReplaceInputTag(process, new="rawDataMapperByLabel", old="rawDataCollector")
 
-
+#Setup FWK for multithreaded                                                                                                                                                                                  
+process.options.numberOfThreads = 8
+process.options.numberOfStreams = 0
 
 # Customisation from command line
-
+process.FEVTDEBUGHLToutput.outputCommands.extend(['keep recoTracks_*_*_*'])
+process.FEVTDEBUGHLToutput.outputCommands.extend(['keep recoVertexs_*_*_*'])
+process.FEVTDEBUGHLToutput.outputCommands.extend(['keep *_pixelPair*_*_*'])
+#process.pixelPairStepTrackCandidates.useHitsSplitting = False
+#process.pixelPairStepClusters.maxChi2 =0.
 #Have logErrorHarvester wait for the same EDProducers to finish as those providing data for the OutputModule
 from FWCore.Modules.logErrorHarvester_cff import customiseLogErrorHarvesterUsingOutputCommands
 process = customiseLogErrorHarvesterUsingOutputCommands(process)

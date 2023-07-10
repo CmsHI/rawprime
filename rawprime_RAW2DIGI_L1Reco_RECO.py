@@ -23,7 +23,7 @@ process.load('Configuration.StandardSequences.EndOfProcess_cff')
 process.load('Configuration.StandardSequences.FrontierConditions_GlobalTag_cff')
 
 process.maxEvents = cms.untracked.PSet(
-    input = cms.untracked.int32(1),
+    input = cms.untracked.int32(10000),
     output = cms.optional.untracked.allowed(cms.int32,cms.PSet)
 )
 
@@ -32,8 +32,8 @@ useHLTSiStripTags = False
 
 # Input source
 process.source = cms.Source("PoolSource",
-                            fileNames = cms.untracked.vstring('/store/hidata/HIRun2022A/HITestRawPrime6/RAW/v1/000/362/321/00000/0586f6b3-0298-4f2b-a159-de91e51004d0.root'),
-                            #fileNames = cms.untracked.vstring('file:./repack_REPACK.root'),
+                            #fileNames = cms.untracked.vstring('/store/hidata/HIRun2022A/HITestRawPrime6/RAW/v1/000/362/321/00000/0586f6b3-0298-4f2b-a159-de91e51004d0.root'),
+                            fileNames = cms.untracked.vstring('file:./repack_REPACK.root'),
                             secondaryFileNames = cms.untracked.vstring(),
                             eventsToProcess = cms.untracked.VEventRange("362321:79323292-362321:79323292"),
 )
@@ -86,7 +86,7 @@ process.FEVTDEBUGHLToutput = cms.OutputModule("PoolOutputModule",
         dataTier = cms.untracked.string('FEVTDEBUGHLT'),
         filterName = cms.untracked.string('')
     ),
-                                              fileName = cms.untracked.string('rawprime_RAW2DIGI_L1Reco_RECO_originalRawPrime.root'),
+                                              fileName = cms.untracked.string('rawprime_RAW2DIGI_L1Reco_RECO.root'),
     outputCommands = process.FEVTDEBUGHLTEventContent.outputCommands,
     splitLevel = cms.untracked.int32(0)
 )
@@ -97,7 +97,8 @@ if useHLTSiStripTags:
 
 # Other statements
 from Configuration.AlCa.GlobalTag import GlobalTag
-process.GlobalTag = GlobalTag(process.GlobalTag, 'auto:run3_data_prompt', '')
+#process.GlobalTag = GlobalTag(process.GlobalTag, 'auto:run3_data_prompt', '')
+process.GlobalTag = GlobalTag(process.GlobalTag, '124X_dataRun3_Prompt_v10','')
 
 # Path and EndPath definitions
 process.raw2digi_step = cms.Path(process.RawToDigi)
@@ -114,10 +115,18 @@ associatePatAlgosToolsTask(process)
 from Configuration.Applications.ConfigBuilder import MassReplaceInputTag
 MassReplaceInputTag(process, new="rawDataMapperByLabel", old="rawDataCollector")
 
-
+#Setup FWK for multithreaded                                                                                                                                                                               
+  
+process.options.numberOfThreads = 8
+process.options.numberOfStreams = 0
 
 # Customisation from command line
-
+process.FEVTDEBUGHLToutput.outputCommands.extend(['keep recoTracks_*_*_*'])
+process.FEVTDEBUGHLToutput.outputCommands.extend(['keep recoVertexs_*_*_*'])
+process.FEVTDEBUGHLToutput.outputCommands.extend(['keep *_pixelPair*_*_*'])
+#process.pixelPairStep.qualityCuts = (-1.,0.0,0.98)
+#process.pixelPairStepTrackCandidates.useHitsSplitting = False
+#process.pixelPairStepClusters.maxChi2 = 0.
 #Have logErrorHarvester wait for the same EDProducers to finish as those providing data for the OutputModule
 from FWCore.Modules.logErrorHarvester_cff import customiseLogErrorHarvesterUsingOutputCommands
 process = customiseLogErrorHarvesterUsingOutputCommands(process)

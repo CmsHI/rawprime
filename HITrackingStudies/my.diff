@@ -1,0 +1,174 @@
+diff --git a/HITrackingStudies/AnalyzerCode/python/__pycache__/trackAnalyzer_cff.cpython-39.pyc b/HITrackingStudies/AnalyzerCode/python/__pycache__/trackAnalyzer_cff.cpython-39.pyc
+new file mode 100644
+index 0000000..58c8f10
+Binary files /dev/null and b/HITrackingStudies/AnalyzerCode/python/__pycache__/trackAnalyzer_cff.cpython-39.pyc differ
+diff --git a/HITrackingStudies/AnalyzerCode/python/__pycache__/trackAnalyzer_cfi.cpython-39.pyc b/HITrackingStudies/AnalyzerCode/python/__pycache__/trackAnalyzer_cfi.cpython-39.pyc
+new file mode 100644
+index 0000000..c3aeff8
+Binary files /dev/null and b/HITrackingStudies/AnalyzerCode/python/__pycache__/trackAnalyzer_cfi.cpython-39.pyc differ
+diff --git a/TrackingCode/HITrackingStudies/AnalyzerCode/src/TrackAnalyzer.cc b/HITrackingStudies/AnalyzerCode/src/TrackAnalyzer.cc
+index 5ca0e99..7ee7f09 100644
+--- a/TrackingCode/HITrackingStudies/AnalyzerCode/src/TrackAnalyzer.cc
++++ b/HITrackingStudies/AnalyzerCode/src/TrackAnalyzer.cc
+@@ -632,22 +632,49 @@ TrackAnalyzer::fillTracks(const edm::Event& iEvent, const edm::EventSetup& iSetu
+ 
+ 	}
+  
+-    pev_.trkEta[pev_.nTrk]=rndDP(etrk.eta(),3);
+-    pev_.trkPhi[pev_.nTrk]=rndDP(etrk.phi(),3);
+-    pev_.trkPt[pev_.nTrk]=rndSF(etrk.pt(),4);
+-    pev_.trkPtError[pev_.nTrk]=rndSF(etrk.ptError(),4);
++    pev_.trkEta[pev_.nTrk]=etrk.eta();
++    pev_.trkPhi[pev_.nTrk]=etrk.phi();
++    pev_.trkPt[pev_.nTrk]=etrk.pt();
++    pev_.trkPtError[pev_.nTrk]=etrk.ptError();
+     pev_.trkCharge[pev_.nTrk]=etrk.charge();
+     pev_.trkNHit[pev_.nTrk]=etrk.numberOfValidHits();
+     pev_.trkDxy[pev_.nTrk]=etrk.dxy();
+     pev_.trkDxyError[pev_.nTrk]=etrk.dxyError();
+     pev_.trkDz[pev_.nTrk]=etrk.dz();
+     pev_.trkDzError[pev_.nTrk]=etrk.dzError();
+-    pev_.trkChi2[pev_.nTrk]=rndSF(etrk.chi2(),4);
++    pev_.trkChi2[pev_.nTrk]=etrk.chi2();
+     pev_.trkNdof[pev_.nTrk]=etrk.ndof();
+     pev_.trkVx[pev_.nTrk]=etrk.vx();
+     pev_.trkVy[pev_.nTrk]=etrk.vy();
+     pev_.trkVz[pev_.nTrk]=etrk.vz();
+ 
++/////////////// snippet suggested by Marco ///////////////
++std::cout  << " pT: " << etrk.pt() << " GeV"
++                  << " , pT error: " << etrk.ptError() << " GeV"
++                  << " , eta: " << etrk.eta() << " , phi: " << etrk.phi()
++                  << " , originalAlgo: " << reco::TrackBase::algoNames[etrk.originalAlgo()]
++                  << " , isHP:" << etrk.quality(reco::TrackBase::highPurity) << " , chi2: " << etrk.chi2()
++                  << " , chi2/ndof: " << etrk.normalizedChi2() << " , n. valid hits: " << etrk.numberOfValidHits()
++                  << " , n. valid hits in PXB: " << etrk.hitPattern().numberOfValidPixelBarrelHits()
++                  << " , n. valid hits in PXF: " << etrk.hitPattern().numberOfValidPixelEndcapHits()
++                  << " , n. valid hits in TIB: " << etrk.hitPattern().numberOfValidStripTIBHits()
++                  << " , n. valid hits in TID: " << etrk.hitPattern().numberOfValidStripTIDHits()
++                  << " , n. valid hits in TOB: " << etrk.hitPattern().numberOfValidStripTOBHits()
++                  << " , n. valid hits in TEC: " << etrk.hitPattern().numberOfValidStripTECHits() << std::endl;
++
++  for (auto const& hit : etrk.recHits()) {
++        const DetId& detId = hit->geographicalId();
++        unsigned int subid = detId.subdetId();
++
++        if (hit->isValid() && (subid == 4)) {
++          printf("det: %d, subdetId: %u, rawId: %d\n", 
++                  detId.det(),
++                  subid,
++                  detId.rawId() );
++        }
++  }
++/////////////// snippet suggested by Marco ///////////////
++
+     math::XYZPoint v1(pev_.xVtx[pev_.maxPtVtx],pev_.yVtx[pev_.maxPtVtx], pev_.zVtx[pev_.maxPtVtx]);
+     pev_.trkDz1[pev_.nTrk]=rndSF(etrk.dz(v1),4);
+     pev_.trkDzError1[pev_.nTrk]=rndSF(sqrt(etrk.dzError()*etrk.dzError()+pev_.zVtxErr[pev_.maxPtVtx]*pev_.zVtxErr[pev_.maxPtVtx]),4);
+diff --git a/HITrackingStudies/HITrackingStudies/python/__pycache__/HITrackCorrectionAnalyzer_cfi.cpython-39.pyc b/HITrackingStudies/HITrackingStudies/python/__pycache__/HITrackCorrectionAnalyzer_cfi.cpython-39.pyc
+new file mode 100644
+index 0000000..fde7b79
+Binary files /dev/null and b/HITrackingStudies/HITrackingStudies/python/__pycache__/HITrackCorrectionAnalyzer_cfi.cpython-39.pyc differ
+diff --git a/TrackingCode/HITrackingStudies/HITrackingStudies/test/run_PbPb_cfg.py b/HITrackingStudies/HITrackingStudies/test/run_PbPb_cfg.py
+index 66cf8e2..14596ae 100644
+--- a/TrackingCode/HITrackingStudies/HITrackingStudies/test/run_PbPb_cfg.py
++++ b/HITrackingStudies/HITrackingStudies/test/run_PbPb_cfg.py
+@@ -2,16 +2,14 @@ import FWCore.ParameterSet.Config as cms
+ 
+ process = cms.Process('TRACKANA')
+ process.load('Configuration.StandardSequences.Services_cff')
+-process.load('SimGeneral.HepPDTESSource.pythiapdt_cfi')
+ process.load('FWCore.MessageService.MessageLogger_cfi')
+ process.load('Configuration.StandardSequences.GeometryRecoDB_cff')
+ process.load('Configuration.StandardSequences.MagneticField_cff')
+ process.load('Configuration.StandardSequences.EndOfProcess_cff')
+ process.load('Configuration.StandardSequences.FrontierConditions_GlobalTag_cff')
+-process.load('HITrackingStudies.HITrackingStudies.HITrackCorrectionAnalyzer_cfi')
+ 
+ process.maxEvents = cms.untracked.PSet(
+-    input = cms.untracked.int32(-1)
++    input = cms.untracked.int32(10)
+ )
+ 
+ process.options = cms.untracked.PSet(
+@@ -22,71 +20,24 @@ process.TFileService = cms.Service("TFileService",
+     fileName = cms.string('trk.root')
+ )
+ 
+-process.load("SimTracker.TrackAssociation.trackingParticleRecoTrackAsssociation_cfi")
+-
+-process.tpRecoAssocGeneralTracks = process.trackingParticleRecoTrackAsssociation.clone()
+-process.tpRecoAssocGeneralTracks.label_tr = cms.InputTag("generalTracks")
+-
+-process.load("SimTracker.TrackAssociatorProducers.quickTrackAssociatorByHits_cfi")
+-process.quickTrackAssociatorByHits.SimToRecoDenominator = cms.string('reco')
+-
+-process.load("SimTracker.TrackerHitAssociation.tpClusterProducerDefault_cfi")
+-process.tpClusterProducer  = process.tpClusterProducerDefault.clone()
+-
+ # Input source
+ process.source = cms.Source("PoolSource",
+     duplicateCheckMode = cms.untracked.string("noDuplicateCheck"),
+-    fileNames =  cms.untracked.vstring('file:fileout_step3_recodebug.root')
++    fileNames =  cms.untracked.vstring('file:/afs/cern.ch/work/m/mnguyen/public/prod/CMSSW_12_5_2/src/rawprime/raw_RAW2DIGI_L1Reco_RECO.root')
++    # fileNames =  cms.untracked.vstring('file:/eos/cms/store/group/phys_heavyions/mnguyen/rawprime/raw_RAW2DIGI_L1Reco_RECO.root')
+ )
+-### centrality ###
+-process.load("RecoHI.HiCentralityAlgos.CentralityBin_cfi") 
+-process.centralityBin.Centrality = cms.InputTag("hiCentrality")
+-process.centralityBin.centralityVariable = cms.string("HFtowers")
+-##process.centralityBin.nonDefaultGlauberModel = cms.string("HydjetDrum5")
+-
+-### Track cuts ###
+-# input collections
+-process.HITrackCorrections.centralitySrc = cms.InputTag("centralityBin","HFtowers")
+-process.HITrackCorrections.trackSrc = cms.InputTag("generalTracks")
+-process.HITrackCorrections.vertexSrc = cms.InputTag("offlinePrimaryVertices")
+-process.HITrackCorrections.qualityString = cms.string("highPurity")
+-process.HITrackCorrections.pfCandSrc = cms.InputTag("particleFlow")
+-process.HITrackCorrections.jetSrc = cms.InputTag("ak4CaloJets")
+-# options
+-process.HITrackCorrections.useCentrality = True
+-process.HITrackCorrections.applyTrackCuts = True
+-process.HITrackCorrections.fillNTuples = False
+-process.HITrackCorrections.applyVertexZCut = False
+-process.HITrackCorrections.doVtxReweighting = False
+-process.HITrackCorrections.doCaloMatched = False
+-# cut values
+-process.HITrackCorrections.dxyErrMax = 3.0
+-process.HITrackCorrections.dzErrMax = 3.0
+-process.HITrackCorrections.ptErrMax = 0.1
+-process.HITrackCorrections.nhitsMin = 11
+-process.HITrackCorrections.chi2nMax = 0.18
+-process.HITrackCorrections.reso = 0.5
+ 
+-#process.HITrackCorrections.crossSection = 1.0 #1.0 is no reweigh
+-#algo 
+-process.HITrackCorrections.algoParameters = cms.vint32(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46)
+-# vertex reweight parameters
+-process.HITrackCorrections.vtxWeightParameters = cms.vdouble(0.0306789, 0.427748, 5.16555, 0.0228019, -0.02049, 7.01258 )
+-###
+ from Configuration.AlCa.GlobalTag import GlobalTag
+ process.GlobalTag = GlobalTag(process.GlobalTag, 'auto:phase1_2022_realistic_hi', '')
+ ###
+ 
+ #forest style analyzers (anaTrack module) (not affected by HITrackCorrections code)
+ process.load('HITrackingStudies.AnalyzerCode.trackAnalyzer_cff')
+-process.anaTrack.useCentrality = True
++process.anaTrack.doSimVertex = False
++process.anaTrack.doMVA = False
++process.anaTrack.doSimTrack = False
+ ###
+ 
+ process.p = cms.Path(
+-                      process.tpClusterProducer *
+-                      process.quickTrackAssociatorByHits *
+-                      process.tpRecoAssocGeneralTracks *
+-                      process.centralityBin *
+-                      process.HITrackCorrections *
+                       process.anaTrack
+ )
+diff --git a/HITrackingStudies/HITrackingStudies/test/trk.root b/HITrackingStudies/HITrackingStudies/test/trk.root
+new file mode 100644
+index 0000000..c13eb55
+Binary files /dev/null and b/HITrackingStudies/HITrackingStudies/test/trk.root differ

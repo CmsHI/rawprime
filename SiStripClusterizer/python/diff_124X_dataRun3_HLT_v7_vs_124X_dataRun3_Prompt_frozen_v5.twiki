@@ -1,0 +1,655 @@
+| *Record* | *124X_dataRun3_HLT_v7* | *124X_dataRun3_Prompt_frozen_v5* | Remarks | 
+| =AlCaRecoTriggerBitsRcd= (-) | ==AlCaRecoHLTpaths8e29_1e31_v15_hlt==  | ==AlCaRecoHLTpaths8e29_5e33_v14_prompt== |
+|^|c40c3747d0c55a431f475d4fa1fb39965d94c861 (2022-06-23 21:38:10) | 695d16954b27ef6ab2124ca6c03d588bbff48a8d (2022-11-11 09:46:25) |
+| =AlCaRecoTriggerBitsRcd= (SiStripDQMTrigger) | ====  | ==AlCaRecoTriggerBits_TrackerDQM_v2_prompt== |
+|^| () | dbda411231194aff8f4a179da2a9b69f3b59b238 (2021-10-25 15:49:34) |
+| =AlignPCLThresholdsHGRcd= (-) | ====  | ==SiPixelAliThresholdsHG_express_v0== |
+|^| () | 58c145df2d8648a3705c40db7f6856991208b2dc (2022-09-30 12:32:10) |
+| =AlignPCLThresholdsRcd= (-) | ====  | ==SiPixelAliThresholds_express_v0== |
+|^| () | a2b1b79fde4ca979546df994fa2e6433632c250b (2017-04-04 15:52:39) |
+| =BTagTrackProbability3DRcd= (-) | ==TrackProbabilityCalibration_PDF3D_hlt==  | ==TrackProbabilityCalibration_PDF3D_express== |
+|^|48524e351f45e24d30c881b522e11bd24ad9166b (2012-07-11 13:06:25) | 640b796b1570597263ee11c885571867043ca6ce (2016-09-23 13:40:50) |
+| =BeamSpotObjectsRcd= (-) | ==BeamSpotObjects_PCL_byRun_v0_hlt==  | ==BeamSpotObjects_PCL_byLumi_v0_prompt== |
+|^|1690dee2a267b07b7f969487926012831bbf42d8 (2022-11-17 12:44:28) |  () |
+| =BeamSpotOnlineHLTObjectsRcd= (-) | ==BeamSpotOnlineHLT==  | ==== |
+|^|7bd3950420b021bfb9c378eb9bb444c9b19f27df (2021-07-02 13:56:29) |  () |
+| =BeamSpotOnlineLegacyObjectsRcd= (-) | ==BeamSpotOnlineLegacy==  | ==== |
+|^|7bd3950420b021bfb9c378eb9bb444c9b19f27df (2021-07-02 13:59:30) |  () |
+| =CSCBadStripsRcd= (-) | ==CSCBadStrips_hlt==  | ==CSCBadStrips_prompt== |
+|^|75e07a47de6fd72603eb0bf4357c7d3161f83bd2 (2014-06-29 16:49:26) | 4d17a54482c2a33d0dc88fd851597e113794c6de (2015-06-25 10:29:39) |
+| =CSCBadWiresRcd= (-) | ==CSCBadWires_hlt==  | ==CSCBadWires_prompt== |
+|^|0b109c36cc9e3c8d5c17bf401f3195cf0c99ceb4 (2014-06-29 16:45:19) | 573b25b81673a6337be702dfcd96639adef04288 (2015-06-25 10:31:53) |
+| =CSCL1TPParametersRcd= (-) | ==CSCL1TPParameters_2010_hlt==  | ==== |
+|^|dc49e13614b942c006145d1648530c92e143a56e (2010-02-25 11:16:50) |  () |
+| =DQMXMLFileRcd= (SiPixelDQMQTests) | ====  | ==DQMXMLFile_SiPixelDQM_v1_prompt== |
+|^| () | c8af0464c8dfde60dc8f2a9326b695fcbc26832e (2010-07-07 16:20:32) |
+| =DQMXMLFileRcd= (SiStripDQMQTests) | ====  | ==DQMXMLFile_SiStripDQM_v1_prompt== |
+|^| () | fe9a38353e2c4cf93da2aa2f115b0c73f2ae7ced (2010-07-07 16:50:34) |
+| =DTHVStatusRcd= (-) | ====  | ==DTHVStatus_V05_hlt== |
+|^| () | 489c7f43c89501523a38d627c03f772690f43739 (2011-02-16 16:55:31) |
+| =DTMtimeRcd= (-) | ==DT_vDrift_cosmic2009_V01_hlt==  | ==DT_vDrift_cosmic2009_V01_express== |
+|^|ba16d00b0cfcba569ba75f885139d1f5674290fe (2018-06-11 20:18:26) | 221968618450dcdc8a8d62f7076c577a62ebc299 (2018-08-20 15:35:36) |
+| =DTTtrigRcd= (-) | ==DTTtrig_V01_hlt==  | ==DTTtrig_V01_prompt== |
+|^|9025c9df8eef3d8e23b9a926cb2203d9d3b6878b (2018-06-11 20:16:45) | 92a3e85cdba4b57473f54a3ea156760ea08758d9 (2018-08-20 15:38:10) |
+| =DYTThrObjectRcd= (-) | ====  | ==DYTThrObject_v0_express== |
+|^| () | 72d21c4cd86daada8d21b982f49196ac7168c70d (2014-10-28 14:27:27) |
+| =DropBoxMetadataRcd= (-) | ====  | ==DropBoxMetadata_v8.1_express== |
+|^| () | 66b13c05c006f1c10fb60de592e6ca130537c37f (2022-09-30 13:06:10) |
+| =EcalDQMChannelStatusRcd= (-) | ==EcalDQMChannelStatus_v1_hlt==  | ==EcalDQMChannelStatus_v1_express== |
+|^|dfd249a342d102db31d1ac2c794bca4c576551ea (2022-05-16 14:43:14) | 305ad708f6da1ec427d9b9813a9e6662e97bae4f (2008-01-01 00:00:42) |
+| =EcalDQMTowerStatusRcd= (-) | ==EcalDQMTowerStatus_v1_hlt==  | ==EcalDQMTowerStatus_v1_express== |
+|^|b0cf74c59775afea1dd8cd0021641aca3685fa03 (2022-05-16 14:43:15) | c4980754fbe7fbe38c7396c645bc351740e65cb9 (2008-01-01 00:00:42) |
+| =EcalGainRatiosRcd= (-) | ==EcalGainRatios_TestPulse_v1_hlt==  | ==EcalGainRatios_TestPulse_express== |
+|^|4e492ed574182aebd6f6c00ca27eff1bfbc16ec4 (2016-01-22 07:29:54) | 77a960fadb1a6d1e5ac003ee6931b6b0adb52397 (2008-01-01 00:00:42) |
+| =EcalLaserAPDPNRatiosRcd= (-) | ==EcalLaserAPDPNRatios_weekly_hlt==  | ==EcalLaserAPDPNRatios_prompt_v3== |
+|^|bca7a3ae0d9f56ca52e98e60d6fe3541043fea35 (2022-11-17 10:29:22) |  () |
+| =EcalPedestalsRcd= (-) | ==EcalPedestals_hlt==  | ==EcalPedestals_prompt== |
+|^|e8156ef698815f7e52cc70b2e84b065ba4977cdf (2022-11-15 06:02:18) | a726df1e40853700d2c26b00178398ddcc2fb482 (2022-11-18 22:04:45) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize1_mean_25ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize1_mean_25ns== |
+|^| () | 87a3be1b8cf18de11237345f51f5cc548cd9815b (2015-04-22 00:27:15) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize1_mean_50ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize1_mean_50ns== |
+|^| () | 5ac0a77370bb0fd98cf04e1257395efeb056855f (2015-04-22 00:28:24) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize1_sigma_25ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize1_sigma_25ns== |
+|^| () | 3432ff391252ce5a7cc48c0a7ab6d722966b0b3c (2015-04-22 00:28:34) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize1_sigma_50ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize1_sigma_50ns== |
+|^| () | 8469efc00b983127f73b5c9a2716486194a3d632 (2015-04-22 00:28:37) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize2_mean_25ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize2_mean_25ns== |
+|^| () | 7198e6f60105201525ee99ab0707a52fe67092e5 (2015-04-22 00:28:22) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize2_mean_50ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize2_mean_50ns== |
+|^| () | f008125f35dce12907e67d48e91531e21c80de50 (2015-04-22 00:29:27) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize2_sigma_25ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize2_sigma_25ns== |
+|^| () | 4efd45af97a35ad12ba4f9ab468d4c3533c6f3a2 (2015-04-22 00:29:23) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize2_sigma_50ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize2_sigma_50ns== |
+|^| () | 4f8857b0d5c42332737c125a249c5c8f65684fef (2015-04-22 00:29:25) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize3_ptbin1_mean_25ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize3_ptbin1_mean_25ns== |
+|^| () | 00f283683fd86559dd34b40f6c2f9bd3828d97a8 (2015-04-22 00:31:42) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize3_ptbin1_mean_50ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize3_ptbin1_mean_50ns== |
+|^| () | 5e65015981feb04eef78575286a3e895e133f9b2 (2015-04-22 00:31:31) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize3_ptbin1_sigma_25ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize3_ptbin1_sigma_25ns== |
+|^| () | eace8b9bce83209f0d9dd1587c81c175d8d7ab35 (2015-04-22 00:32:57) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize3_ptbin1_sigma_50ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize3_ptbin1_sigma_50ns== |
+|^| () | aa14086eeab468eac2d3fcc39515efbbf45db79f (2015-04-22 00:32:48) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize3_ptbin2_mean_25ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize3_ptbin2_mean_25ns== |
+|^| () | 4fb46a35f0975efbd8bd3df787f04ff63a9a3dd1 (2015-04-22 00:31:40) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize3_ptbin2_mean_50ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize3_ptbin2_mean_50ns== |
+|^| () | 3c09d1c2fd75e0b4b663f5eddc93ef3b2e2b7481 (2015-04-22 00:31:33) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize3_ptbin2_sigma_25ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize3_ptbin2_sigma_25ns== |
+|^| () | b6dab8d8b028f082da9407ac15f3e6d5aedd29e6 (2015-04-22 00:32:55) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize3_ptbin2_sigma_50ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize3_ptbin2_sigma_50ns== |
+|^| () | 246fbe4bc12be7bb563e9cbbb6159b036bf5bec4 (2015-04-22 00:32:53) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize3_ptbin3_mean_25ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize3_ptbin3_mean_25ns== |
+|^| () | 7ade7e0acdef8410601bf84ef946b88b7c70c761 (2015-04-22 00:31:38) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize3_ptbin3_mean_50ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize3_ptbin3_mean_50ns== |
+|^| () | 7bf2403972c4a80e99260b0ebfb5d2d5fa3127e1 (2015-04-22 00:32:43) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize3_ptbin3_sigma_25ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize3_ptbin3_sigma_25ns== |
+|^| () | 8fb2bc6f857d6e2449e25bf85cb27c52ce4b1b6c (2015-04-22 00:32:50) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EB_pfSize3_ptbin3_sigma_50ns) | ====  | ==ecalPFClusterCorV2_EB_pfSize3_ptbin3_sigma_50ns== |
+|^| () | 34bfdf2aedb56154696a5068b408dd4fa33eabbe (2015-04-22 00:34:18) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize1_mean_25ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize1_mean_25ns== |
+|^| () | 98fcdedaa6b69163b7bc62ae31fe163b3ccf6571 (2015-04-22 00:34:20) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize1_mean_50ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize1_mean_50ns== |
+|^| () | e5a7c3b867a9f084137d9141f54f1545366274e0 (2015-04-22 00:34:25) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize1_sigma_25ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize1_sigma_25ns== |
+|^| () | 5613d0450aea00bd72969fc783a4a9d91f3402ec (2015-04-22 00:34:27) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize1_sigma_50ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize1_sigma_50ns== |
+|^| () | 440d39578dca3f02a2721ce324fca916cea59dc4 (2015-04-22 00:34:16) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize2_mean_25ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize2_mean_25ns== |
+|^| () | 320cfd04e8b5a0d418623a7f6144fe79945935b8 (2015-04-22 00:34:23) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize2_mean_50ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize2_mean_50ns== |
+|^| () | 28916e5716c12cc0bbf054cf38aa55927a32c1f1 (2015-04-22 00:34:30) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize2_sigma_25ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize2_sigma_25ns== |
+|^| () | 896da1c81db8dbb0aedd708150bc43827b49d102 (2015-04-22 00:34:13) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize2_sigma_50ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize2_sigma_50ns== |
+|^| () | 5de416f9a6163fc77a0bd3c6e408068df20d28c0 (2015-04-22 00:35:56) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize3_ptbin1_mean_25ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize3_ptbin1_mean_25ns== |
+|^| () | 9dd63a63af4d3bcd5019b329c5ddc6e03c54493c (2015-04-22 00:36:02) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize3_ptbin1_mean_50ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize3_ptbin1_mean_50ns== |
+|^| () | fb1b6cd5b7b6528da555172d754866a0f27e4147 (2015-04-22 00:35:51) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize3_ptbin1_sigma_25ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize3_ptbin1_sigma_25ns== |
+|^| () | 915a451c720685558c9caa99a9084dccda17f6b3 (2015-04-22 00:36:00) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize3_ptbin1_sigma_50ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize3_ptbin1_sigma_50ns== |
+|^| () | 746b75fb08058c4ef75fb449ccc8c91d312df451 (2015-04-22 00:37:09) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize3_ptbin2_mean_25ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize3_ptbin2_mean_25ns== |
+|^| () | 0ec267938358527b9b0da57bb149ec46ba379649 (2015-04-22 00:35:58) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize3_ptbin2_mean_50ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize3_ptbin2_mean_50ns== |
+|^| () | 6e05b943047ad427d56c8f64861b19e064e05dc4 (2015-04-22 00:35:49) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize3_ptbin2_sigma_25ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize3_ptbin2_sigma_25ns== |
+|^| () | 1f19b997af56aaa59d55a6547b0539989f118343 (2015-04-22 00:35:54) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize3_ptbin2_sigma_50ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize3_ptbin2_sigma_50ns== |
+|^| () | e0f50a49b7d644f37155bf28484cce906738f851 (2015-04-22 00:37:04) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize3_ptbin3_mean_25ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize3_ptbin3_mean_25ns== |
+|^| () | 006ebbc2021376c68b599d344fb14894eb9282b5 (2015-04-22 00:36:07) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize3_ptbin3_mean_50ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize3_ptbin3_mean_50ns== |
+|^| () | bba66245e3370acb66a1393b687483ed0cf143a4 (2015-04-22 00:36:05) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize3_ptbin3_sigma_25ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize3_ptbin3_sigma_25ns== |
+|^| () | 75cf78afc0061ebe61e68f4726c1d5f490d0cfa1 (2015-04-22 00:37:06) |
+| =GBRDWrapperRcd= (ecalPFClusterCorV2_EE_pfSize3_ptbin3_sigma_50ns) | ====  | ==ecalPFClusterCorV2_EE_pfSize3_ptbin3_sigma_50ns== |
+|^| () | a34fcd5cacedf626ea6d07380076b00dcd1f12cc (2015-04-22 00:37:01) |
+| =GBRDWrapperRcd= (electron_eb_ECALTRK) | ====  | ==GEDelectron_track_EBCorrection_80X_EGM_v4== |
+|^| () | 09ea0996b80fdefe292630115558644927d4b2f5 (2017-01-22 21:21:58) |
+| =GBRDWrapperRcd= (electron_eb_ECALTRK_lowpt) | ====  | ==GEDelectron_track_lowpt_EBCorrection_80X_EGM_v4== |
+|^| () | 47d7773affe0a4a18ecd5f08a31e4c7293b64c5c (2017-01-22 21:22:22) |
+| =GBRDWrapperRcd= (electron_eb_ECALTRK_lowpt_var) | ====  | ==GEDelectron_track_lowpt_EBUncertainty_80X_EGM_v4== |
+|^| () | 0252a9b77fae9680ab3082c85cf0f120232c9df2 (2017-01-22 21:22:26) |
+| =GBRDWrapperRcd= (electron_eb_ECALTRK_var) | ====  | ==GEDelectron_track_EBUncertainty_80X_EGM_v4== |
+|^| () | 04899d7a08c835ca64c48bd0cd899791205b3c0d (2017-01-22 21:22:10) |
+| =GBRDWrapperRcd= (electron_eb_ECALonly) | ====  | ==GEDelectron_EBCorrection_Prompt_v1== |
+|^| () | c256b2b0d59963c2956446e59bd849026ec6ac70 (2022-05-24 15:49:22) |
+| =GBRDWrapperRcd= (electron_eb_ECALonly_lowpt) | ====  | ==GEDelectron_lowpt_EBCorrection_80X_EGM_v4== |
+|^| () | 584ef985bcbda2a72e0587e893979b2a3f6cb5b7 (2017-01-22 21:23:01) |
+| =GBRDWrapperRcd= (electron_eb_ECALonly_lowpt_var) | ====  | ==GEDelectron_lowpt_EBUncertainty_80X_EGM_v4== |
+|^| () | 164c228a07d92fc9bf356fbcf44ffee102bce21c (2017-01-22 21:23:05) |
+| =GBRDWrapperRcd= (electron_eb_ECALonly_var) | ====  | ==GEDelectron_EBUncertainty_Prompt_v1== |
+|^| () | 591a6e65a828799cf970564ac41cb63f0f052004 (2022-05-24 15:48:25) |
+| =GBRDWrapperRcd= (electron_eb_ecalOnly_1To300_0p0002To0p5_sigma) | ====  | ==electron_eb_ecalOnly_1To300_0p0002To0p5_sigma_Prompt_v1== |
+|^| () | d6b7abd2ea85a1e0a6ac6432f55b537dc9275003 (2022-05-24 15:45:09) |
+| =GBRDWrapperRcd= (electron_eb_ecalOnly_1To300_0p2To2_mean) | ====  | ==electron_eb_ecalOnly_1To300_0p2To2_mean_Prompt_v1== |
+|^| () | 8d33738766d315f945c018a68226528770648c6d (2022-05-24 15:44:44) |
+| =GBRDWrapperRcd= (electron_eb_ecalTrk_1To300_0p0002To0p5_sigma) | ====  | ==electron_eb_ecalTrk_1To300_0p0002To0p5_sigma_Prompt_v1== |
+|^| () | d47c416b4b6ebe19b9602a3bd8f55760582d2748 (2022-05-24 15:44:17) |
+| =GBRDWrapperRcd= (electron_eb_ecalTrk_1To300_0p2To2_mean) | ====  | ==electron_eb_ecalTrk_1To300_0p2To2_mean_Prompt_v1== |
+|^| () | 6dd1efddbd2bdd8e84b61f03fc4d33b8d2ce9610 (2022-05-24 15:43:52) |
+| =GBRDWrapperRcd= (electron_ee_ECALTRK) | ====  | ==GEDelectron_track_EECorrection_80X_EGM_v4== |
+|^| () | 3c0eac34c8298777a68395093f1803d42d79b72b (2017-01-22 21:22:14) |
+| =GBRDWrapperRcd= (electron_ee_ECALTRK_lowpt) | ====  | ==GEDelectron_track_lowpt_EECorrection_80X_EGM_v4== |
+|^| () | f4603a9d78ed29151914fab96c3f73023b50226d (2017-01-22 21:22:29) |
+| =GBRDWrapperRcd= (electron_ee_ECALTRK_lowpt_var) | ====  | ==GEDelectron_track_lowpt_EEUncertainty_80X_EGM_v4== |
+|^| () | fc2a97d21e44e7e431defffaa6a041cfd4857c17 (2017-01-22 21:22:33) |
+| =GBRDWrapperRcd= (electron_ee_ECALTRK_var) | ====  | ==GEDelectron_track_EEUncertainty_80X_EGM_v4== |
+|^| () | 140cfed3dc712a8eb99e4ade25cfde98eddc7652 (2017-01-22 21:22:18) |
+| =GBRDWrapperRcd= (electron_ee_ECALonly) | ====  | ==GEDelectron_EECorrection_Prompt_v1== |
+|^| () | 60b2669eb52458008262777599439f02181c29c0 (2022-06-16 16:53:48) |
+| =GBRDWrapperRcd= (electron_ee_ECALonly_lowpt) | ====  | ==GEDelectron_lowpt_EECorrection_80X_EGM_v4== |
+|^| () | 51164aa4466e0f932bef7bc583a13de69aebd8b1 (2017-01-22 21:23:09) |
+| =GBRDWrapperRcd= (electron_ee_ECALonly_lowpt_var) | ====  | ==GEDelectron_lowpt_EEUncertainty_80X_EGM_v4== |
+|^| () | 61aff93a452c4eece25e3af1756bf473b00aecfc (2017-01-22 21:23:13) |
+| =GBRDWrapperRcd= (electron_ee_ECALonly_var) | ====  | ==GEDelectron_EEUncertainty_Prompt_v1== |
+|^| () | 96886273fe89ef61dbf4585f0d49cf62894a857b (2022-06-16 16:54:31) |
+| =GBRDWrapperRcd= (electron_ee_ecalOnly_1To300_0p0002To0p5_sigma) | ====  | ==electron_ee_ecalOnly_1To300_0p0002To0p5_sigma_Prompt_v1== |
+|^| () | a1e63f52ec1de5534e3279b0721a5f973f99655c (2022-05-24 15:43:26) |
+| =GBRDWrapperRcd= (electron_ee_ecalOnly_1To300_0p2To2_mean) | ====  | ==electron_ee_ecalOnly_1To300_0p2To2_mean_Prompt_v1== |
+|^| () | ac90ad6fd49448062e16988890abfb2e76325153 (2022-05-24 15:42:58) |
+| =GBRDWrapperRcd= (electron_ee_ecalTrk_1To300_0p0002To0p5_sigma) | ====  | ==electron_ee_ecalTrk_1To300_0p0002To0p5_sigma_Prompt_v1== |
+|^| () | 441fdcb64a88469614148b8cb0c2d44df0e6afa2 (2022-05-24 15:42:31) |
+| =GBRDWrapperRcd= (electron_ee_ecalTrk_1To300_0p2To2_mean) | ====  | ==electron_ee_ecalTrk_1To300_0p2To2_mean_Prompt_v1== |
+|^| () | 2b733f75f6c21c407de115e6b25f94fbeccb0000 (2022-05-24 15:42:05) |
+| =GBRDWrapperRcd= (gedelectron_EBCorrection_25ns) | ====  | ==GBRForestD_gedelectron_EBCorrection_25ns_v0== |
+|^| () | e1d6f1bd36f75962736bdd5eedb82fa1fc464c35 (2015-08-07 16:27:28) |
+| =GBRDWrapperRcd= (gedelectron_EBCorrection_50ns) | ====  | ==GBRForestD_gedelectron_EBCorrection_50ns_v0== |
+|^| () | 517eaeca76aaa2715d68b04852d6bfd2fab6ec95 (2015-08-07 16:32:08) |
+| =GBRDWrapperRcd= (gedelectron_EBUncertainty_25ns) | ====  | ==GBRForestD_gedelectron_EBUncertainty_25ns_v0== |
+|^| () | 93c3c6953b8ac26ca77695e9d07e2e54d7a94ef2 (2015-08-07 16:28:08) |
+| =GBRDWrapperRcd= (gedelectron_EBUncertainty_50ns) | ====  | ==GBRForestD_gedelectron_EBUncertainty_50ns_v0== |
+|^| () | e55561b32cffa9a1f9c358c84e9101dcfd4465ba (2015-08-07 16:32:51) |
+| =GBRDWrapperRcd= (gedelectron_EECorrection_25ns) | ====  | ==GBRForestD_gedelectron_EECorrection_25ns_v0== |
+|^| () | 0b2db656049a1cadece037c152812c07235a5a12 (2015-08-07 16:29:34) |
+| =GBRDWrapperRcd= (gedelectron_EECorrection_50ns) | ====  | ==GBRForestD_gedelectron_EECorrection_50ns_v0== |
+|^| () | f1e7b90f5d9101210d737fc91daaad3ed933491a (2015-08-07 16:31:22) |
+| =GBRDWrapperRcd= (gedelectron_EEUncertainty_25ns) | ====  | ==GBRForestD_gedelectron_EEUncertainty_25ns_v0== |
+|^| () | ad715c9568e287ceb4e8f5b8ba2f37a7f2f63668 (2015-08-07 16:28:52) |
+| =GBRDWrapperRcd= (gedelectron_EEUncertainty_50ns) | ====  | ==GBRForestD_gedelectron_EEUncertainty_50ns_v0== |
+|^| () | f83402ea8ec63e96a1e8a81c014888151b415293 (2015-08-07 16:32:53) |
+| =GBRDWrapperRcd= (gedphoton_EBCorrection_25ns) | ====  | ==GBRForestD_gedphoton_EBCorrection_25ns_v1== |
+|^| () | 90beff1d56763760cde1c39f0e731344af2aaf56 (2016-02-10 18:45:01) |
+| =GBRDWrapperRcd= (gedphoton_EBCorrection_50ns) | ====  | ==GBRForestD_gedphoton_EBCorrection_50ns_v0== |
+|^| () | e79242193d2ac2c5837e6c4b3c475588a8e8245c (2015-08-07 16:46:51) |
+| =GBRDWrapperRcd= (gedphoton_EBUncertainty_25ns) | ====  | ==GBRForestD_gedphoton_EBUncertainty_25ns_v1== |
+|^| () | 0a52367e47c401f02a3e195bc7024d87e76657ad (2016-02-10 18:46:34) |
+| =GBRDWrapperRcd= (gedphoton_EBUncertainty_50ns) | ====  | ==GBRForestD_gedphoton_EBUncertainty_50ns_v0== |
+|^| () | cea7f3da3391d512853cc086e5f00b171423c24f (2015-08-07 16:39:49) |
+| =GBRDWrapperRcd= (gedphoton_EECorrection_25ns) | ====  | ==GBRForestD_gedphoton_EECorrection_25ns_v1== |
+|^| () | 9346bb65ec9e8712d36734cd055ab415ad45eda1 (2016-02-10 18:44:09) |
+| =GBRDWrapperRcd= (gedphoton_EECorrection_50ns) | ====  | ==GBRForestD_gedphoton_EECorrection_50ns_v0== |
+|^| () | 19b3c22845e7ca012698b2de044e79b6d33ec734 (2015-08-07 16:45:50) |
+| =GBRDWrapperRcd= (gedphoton_EEUncertainty_25ns) | ====  | ==GBRForestD_gedphoton_EEUncertainty_25ns_v1== |
+|^| () | 9743c36d17b8f835eba35e5e4e58ad39227cdd7b (2016-02-10 18:47:36) |
+| =GBRDWrapperRcd= (gedphoton_EEUncertainty_50ns) | ====  | ==GBRForestD_gedphoton_EEUncertainty_50ns_v0== |
+|^| () | c51c9aa96d4e48ca8531165de8bb14e465a131f5 (2015-08-07 16:39:53) |
+| =GBRDWrapperRcd= (lowPtElectron_eb_ecalOnly_05To50_mean) | ====  | ==lowPtElectron_eb_ecalOnly_05To50_mean_UL_v1== |
+|^| () | 9f36bcde53bf89dc349ee4725ecc02aaefcabda0 (2020-12-05 00:54:17) |
+| =GBRDWrapperRcd= (lowPtElectron_eb_ecalOnly_05To50_sigma) | ====  | ==lowPtElectron_eb_ecalOnly_05To50_sigma_UL_v1== |
+|^| () | 2471ee3ed8093d6050b217c9f5bf1ce11d416c45 (2020-12-05 16:04:33) |
+| =GBRDWrapperRcd= (lowPtElectron_eb_ecalTrk_05To50_mean) | ====  | ==lowPtElectron_eb_ecalTrk_05To50_mean_UL_v1== |
+|^| () | 5d8e05fb43b2d5926bbb5a2e28c415ee571659fa (2020-12-05 16:11:46) |
+| =GBRDWrapperRcd= (lowPtElectron_eb_ecalTrk_05To50_sigma) | ====  | ==lowPtElectron_eb_ecalTrk_05To50_sigma_UL_v1== |
+|^| () | 01cb837afdf2c50a2c23fb2c53cae9fc29be3ec3 (2020-12-05 16:30:24) |
+| =GBRDWrapperRcd= (lowPtElectron_ee_ecalOnly_05To50_mean) | ====  | ==lowPtElectron_ee_ecalOnly_05To50_mean_UL_v1== |
+|^| () | 01226887866794cd3c13ef2d24e0e0e733d17a94 (2020-12-05 16:16:55) |
+| =GBRDWrapperRcd= (lowPtElectron_ee_ecalOnly_05To50_sigma) | ====  | ==lowPtElectron_ee_ecalOnly_05To50_sigma_UL_v1== |
+|^| () | 488620b2ba1df232904ca21b79fffa19d52bbad8 (2020-12-05 16:20:41) |
+| =GBRDWrapperRcd= (lowPtElectron_ee_ecalTrk_05To50_mean) | ====  | ==lowPtElectron_ee_ecalTrk_05To50_mean_UL_v1== |
+|^| () | 374a198f311aee762dbcf8132f6ff3c86cb11ce3 (2020-12-05 16:23:52) |
+| =GBRDWrapperRcd= (lowPtElectron_ee_ecalTrk_05To50_sigma) | ====  | ==lowPtElectron_ee_ecalTrk_05To50_sigma_UL_v1== |
+|^| () | 4fcfbeebe8e9cfe205cc427887ffa20bc70082a0 (2020-12-05 16:27:09) |
+| =GBRDWrapperRcd= (pfscecal_EBCorrection_offline_v2) | ====  | ==pfscecal_EBCorrection_Prompt_v1== |
+|^| () | 0497b8d7d5aa06d4d2429f68addd419c1d2915b7 (2022-05-24 15:41:16) |
+| =GBRDWrapperRcd= (pfscecal_EBUncertainty_offline_v2) | ====  | ==pfscecal_EBUncertainty_Prompt_v1== |
+|^| () | b5efd8a865d491f51c313e68ecd5286953d4d4a6 (2022-05-24 15:40:39) |
+| =GBRDWrapperRcd= (pfscecal_EECorrection_offline_v2) | ====  | ==pfscecal_EECorrection_Prompt_v1== |
+|^| () | a32c1a3aef3563e166d73a3aaab3b7692624d1e5 (2022-05-24 15:40:12) |
+| =GBRDWrapperRcd= (pfscecal_EEUncertainty_offline_v2) | ====  | ==pfscecal_EEUncertainty_Prompt_v1== |
+|^| () | 9a27bf08964ce3e26340ef9d8157ca142cf7bdce (2022-05-24 15:39:46) |
+| =GBRDWrapperRcd= (photon_eb_ECALonly) | ====  | ==GEDphoton_EBCorrection_Prompt_v1== |
+|^| () | 77771110664cea97e5b031ad970ad9a6e62faabd (2022-05-24 15:47:04) |
+| =GBRDWrapperRcd= (photon_eb_ECALonly_lowpt) | ====  | ==GEDphoton_lowpt_EBCorrection_80X_EGM_v4== |
+|^| () | 13bf413edce3e335b51b2bba9e24729abd6ca218 (2017-01-22 21:23:37) |
+| =GBRDWrapperRcd= (photon_eb_ECALonly_lowpt_var) | ====  | ==GEDphoton_lowpt_EBUncertainty_80X_EGM_v4== |
+|^| () | 602f69e45567fe81facbedbdb7944f3c8159e52a (2017-01-22 21:23:40) |
+| =GBRDWrapperRcd= (photon_eb_ECALonly_var) | ====  | ==GEDphoton_EBUncertainty_Prompt_v1== |
+|^| () | d8f9467e82790ffcda09f952ce062249c16e403b (2022-05-24 15:46:37) |
+| =GBRDWrapperRcd= (photon_eb_ecalOnly_5To300_0p0002To0p5_sigma) | ====  | ==photon_eb_ecalOnly_5To300_0p0002To0p5_sigma_Prompt_v1== |
+|^| () | b8d2ca1bb83264a0d2ff2f50fd4d690354f931ae (2022-05-24 15:39:15) |
+| =GBRDWrapperRcd= (photon_eb_ecalOnly_5To300_0p2To2_mean) | ====  | ==photon_eb_ecalOnly_5To300_0p2To2_mean_Prompt_v1== |
+|^| () | a047149c925cd05421f8b02d282d9a7060be9fc8 (2022-05-24 15:38:43) |
+| =GBRDWrapperRcd= (photon_ee_ECALonly) | ====  | ==GEDphoton_EECorrection_Prompt_v1== |
+|^| () | 67abf56a5459f7364fc7c416f2691262d15221b2 (2022-05-24 15:46:12) |
+| =GBRDWrapperRcd= (photon_ee_ECALonly_lowpt) | ====  | ==GEDphoton_lowpt_EECorrection_80X_EGM_v4== |
+|^| () | 8826ab849e009baf624bd1d9ecba329bc94720bd (2017-01-22 21:23:45) |
+| =GBRDWrapperRcd= (photon_ee_ECALonly_lowpt_var) | ====  | ==GEDphoton_lowpt_EEUncertainty_80X_EGM_v4== |
+|^| () | 328ac88b1c0f6f13e1c41f2beaa70865208fb711 (2017-01-22 21:23:49) |
+| =GBRDWrapperRcd= (photon_ee_ECALonly_var) | ====  | ==GEDphoton_EEUncertainty_Prompt_v1== |
+|^| () | 7e63d5e66d843d8e694336694260bfe77cd3ef28 (2022-05-24 15:45:45) |
+| =GBRDWrapperRcd= (photon_ee_ecalOnly_5To300_0p0002To0p5_sigma) | ====  | ==photon_ee_ecalOnly_5To300_0p0002To0p5_sigma_Prompt_v1== |
+|^| () | 3a8b8d7be6967613e6d0ac7fdd90dd738d4d05b2 (2022-05-24 15:37:51) |
+| =GBRDWrapperRcd= (photon_ee_ecalOnly_5To300_0p2To2_mean) | ====  | ==photon_ee_ecalOnly_5To300_0p2To2_mean_Prompt_v1== |
+|^| () | f642379d45f735a8728a89032a0615e3bc5089ff (2022-05-24 15:36:16) |
+| =GBRWrapperRcd= (HIMVASelectorIter4) | ====  | ==GBRForest_HIMVASelectorIter4_v0_offline== |
+|^| () | d5f48b4e9545e236d6340a2257ed2b034474ec0a (2015-05-08 14:10:34) |
+| =GBRWrapperRcd= (HIMVASelectorIter5) | ====  | ==GBRForest_HIMVASelectorIter5_v0_offline== |
+|^| () | c96a5ceeb242e337d8d0f3f8e554be69175c5c61 (2015-05-11 06:47:38) |
+| =GBRWrapperRcd= (HIMVASelectorIter6) | ====  | ==GBRForest_HIMVASelectorIter6_v0_offline== |
+|^| () | 1045610bc536ca05175e434da7cc14cb0e784ad5 (2015-05-11 06:47:43) |
+| =GBRWrapperRcd= (HIMVASelectorIter7) | ====  | ==GBRForest_HIMVASelectorIter7_v0_offline== |
+|^| () | fe6a5e88f80d169c1e8e7490f8a5617e0109fc04 (2015-05-11 06:48:18) |
+| =GBRWrapperRcd= (MVADuplicate) | ====  | ==GBRForest_MVADuplicate_v0_offline== |
+|^| () | af46be0cfc930da267f3c32d1be75b0e8fdac86c (2013-05-13 13:59:10) |
+| =GBRWrapperRcd= (MVASelectorDetachedQuadStep_Phase1) | ====  | ==GBRForest_MVASelectorDetachedQuadStep_Phase1_v2_offline== |
+|^| () | 1b7ece005e1f7e75d6c43da2f89232a6378c0e93 (2017-09-13 14:29:09) |
+| =GBRWrapperRcd= (MVASelectorDetachedTripletStep_Phase1) | ====  | ==GBRForest_MVASelectorDetachedTripletStep_Phase1_v2_offline== |
+|^| () | e41e35246983a12ef2c8131d57b6fe67295401cd (2017-09-13 14:30:32) |
+| =GBRWrapperRcd= (MVASelectorHighPtTripletStep_Phase1) | ====  | ==GBRForest_MVASelectorHighPtTripletStep_Phase1_v2_offline== |
+|^| () | eca797a5647e8c132342de7bac161a120a70e33a (2017-09-13 14:27:39) |
+| =GBRWrapperRcd= (MVASelectorInitialStep_Phase1) | ====  | ==GBRForest_MVASelectorInitialStep_Phase1_v2_offline== |
+|^| () | 12eda87bd35a6a0894038a3fde0ccb1d1085b085 (2017-09-13 14:22:07) |
+| =GBRWrapperRcd= (MVASelectorIter0) | ====  | ==GBRForest_MVASelectorIter0_v0_offline== |
+|^| () | 35c76f1bbf3fd74e0236f0c80db11abf2adcb9c5 (2013-05-13 13:50:56) |
+| =GBRWrapperRcd= (MVASelectorIter0_13TeV) | ====  | ==GBRForest_MVASelectorIter0_13TeV_v1_offline== |
+|^| () | 742bd93c12d708428f1654c47341252a24eb681d (2015-05-22 15:22:13) |
+| =GBRWrapperRcd= (MVASelectorIter1) | ====  | ==GBRForest_MVASelectorIter1_v0_offline== |
+|^| () | a7a69d8d8ad1d6d150eb0a38ac16b3648e8bc373 (2013-05-13 13:55:35) |
+| =GBRWrapperRcd= (MVASelectorIter1_13TeV) | ====  | ==GBRForest_MVASelectorIter1_13TeV_v1_offline== |
+|^| () | fe42e5005d37277a50bdf4f313798fe4b3cccf32 (2015-05-22 15:22:10) |
+| =GBRWrapperRcd= (MVASelectorIter2) | ====  | ==GBRForest_MVASelectorIter2_v0_offline== |
+|^| () | 7e73a46f10cd143875f42530a1b8a75f2d4c5866 (2013-05-13 13:57:17) |
+| =GBRWrapperRcd= (MVASelectorIter2_13TeV) | ====  | ==GBRForest_MVASelectorIter2_13TeV_v1_offline== |
+|^| () | 4dde21b71c0eeb63c18e2c5d878f1e88edede980 (2015-05-22 15:22:06) |
+| =GBRWrapperRcd= (MVASelectorIter3) | ====  | ==GBRForest_MVASelectorIter3_v0_offline== |
+|^| () | 59acadbb60271ac9f019265e720ed210b95419e5 (2013-05-13 13:59:17) |
+| =GBRWrapperRcd= (MVASelectorIter3_13TeV) | ====  | ==GBRForest_MVASelectorIter3_13TeV_v1_offline== |
+|^| () | 691f75b0f02d99b8eca86f837618f863bf3ff3b7 (2015-05-22 15:22:58) |
+| =GBRWrapperRcd= (MVASelectorIter4) | ====  | ==GBRForest_MVASelectorIter4_v0_offline== |
+|^| () | 06feaec6769fcda7c9f0c78562190f9db23c3881 (2013-05-13 13:59:22) |
+| =GBRWrapperRcd= (MVASelectorIter4_13TeV) | ====  | ==GBRForest_MVASelectorIter4_13TeV_v1_offline== |
+|^| () | 4162a20a091ebe6370438561597e02ba51cddbaa (2015-05-22 15:22:54) |
+| =GBRWrapperRcd= (MVASelectorIter5) | ====  | ==GBRForest_MVASelectorIter5_v0_offline== |
+|^| () | ffbc14ee8cd51fdeee0aabefec58a405c890cb24 (2013-05-13 13:59:20) |
+| =GBRWrapperRcd= (MVASelectorIter5_13TeV) | ====  | ==GBRForest_MVASelectorIter5_13TeV_v1_offline== |
+|^| () | d1e4110b66cba3024c4c95d07b0452eedafa96a1 (2015-05-22 15:22:51) |
+| =GBRWrapperRcd= (MVASelectorIter6) | ====  | ==GBRForest_MVASelectorIter6_v0_offline== |
+|^| () | bb53802d48f8fd8806ca61048eef6e4dd1f3f15f (2013-05-13 13:59:27) |
+| =GBRWrapperRcd= (MVASelectorIter6_13TeV) | ====  | ==GBRForest_MVASelectorIter6_13TeV_v1_offline== |
+|^| () | 6a363e8dc3eaafcfab6cae61a04a83dd4a0bca8a (2015-05-22 15:22:56) |
+| =GBRWrapperRcd= (MVASelectorLowPtQuadStep_Phase1) | ====  | ==GBRForest_MVASelectorLowPtQuadStep_Phase1_v2_offline== |
+|^| () | 3442839f6d18e8053b028389b8d3b34ef2a0fdb5 (2017-09-13 14:26:55) |
+| =GBRWrapperRcd= (MVASelectorLowPtTripletStep_Phase1) | ====  | ==GBRForest_MVASelectorLowPtTripletStep_Phase1_v2_offline== |
+|^| () | f9d43c60f3518c7e8bd2afcd8485d75c413e25f2 (2017-09-13 14:28:35) |
+| =GBRWrapperRcd= (PFEcalResolution) | ====  | ==GBRForest_PFEcalEnergyResolution_v2_offline== |
+|^| () | b253d39a26800e7862ff78e94e3c977ad0c17ec1 (2012-04-24 08:24:31) |
+| =GBRWrapperRcd= (PFGCorrectionBar) | ====  | ==GBRForest_PFGlobalCorrectionBarrel_v2_offline== |
+|^| () | 54365b8759e7246106a471acdc590f1b55e6246a (2012-04-24 08:25:31) |
+| =GBRWrapperRcd= (PFGCorrectionEndHighR9) | ====  | ==GBRForest_PFGlobalCorrectionEndcapHighR9_v2_offline== |
+|^| () | 72ec5bd00f611443ab4a5d2d707d7b56e1943e49 (2012-04-24 08:26:10) |
+| =GBRWrapperRcd= (PFGCorrectionEndLowR9) | ====  | ==GBRForest_PFGlobalCorrectionEndcapLowR9_v2_offline== |
+|^| () | 407c28c8876f1b6bfc44c4850c5cd3941c6b5515 (2012-04-24 08:26:35) |
+| =GBRWrapperRcd= (PFGlobalCorrection) | ====  | ==GBRForest_PFGlobalCorrection_v0_offline== |
+|^| () | aae474b10c6b43688fc34d15e80902ae0939b69d (2011-12-19 23:55:31) |
+| =GBRWrapperRcd= (PFLCCorrection) | ====  | ==GBRForest_PFLCCorrection_v0_offline== |
+|^| () | f94796954de2590f9708cdaf8199b5db7bd21192 (2011-12-19 23:55:52) |
+| =GBRWrapperRcd= (PFLCorrectionBar) | ====  | ==GBRForest_PFLocalCorrectionBarrel_v2_offline== |
+|^| () | a9ada95467230c5c7d525cc8ec1cd702df00d04a (2012-04-24 08:27:11) |
+| =GBRWrapperRcd= (PFLCorrectionEnd) | ====  | ==GBRForest_PFLocalCorrectionEndcap_v2_offline== |
+|^| () | 1e02f07e321efbaa7666e9f3acb5f828f0b5084e (2012-04-24 08:27:32) |
+| =GBRWrapperRcd= (PFResolution) | ====  | ==GBRForest_PFResolution_v0_offline== |
+|^| () | 4665df7707a9aa747fd8b411a254c578904cc7b9 (2011-12-19 23:56:08) |
+| =GBRWrapperRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_wGwoGSF_BL) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_wGwoGSF_BL== |
+|^| () | 1a995c6e21de9961f11587896a9d1d16c3313409 (2018-12-12 13:25:01) |
+| =GBRWrapperRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_wGwoGSF_EC) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_wGwoGSF_EC== |
+|^| () | 396d3e2eb677c78fe88cf7e093435df6de6a69d9 (2018-12-12 13:30:34) |
+| =GBRWrapperRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_woGwoGSF_BL) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_woGwoGSF_BL== |
+|^| () | 0826d2d0c1ad710a4a5295167cb829e4f57dbaeb (2018-12-12 13:23:01) |
+| =GBRWrapperRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_woGwoGSF_EC) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_woGwoGSF_EC== |
+|^| () | df8480b0861d32f6bcb97df5946a3d1e64f2076d (2018-12-12 13:29:18) |
+| =GBRWrapperRcd= (RecoTauTag_antiElectronMVA_wGwGSF_BL) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_wGwGSF_BL== |
+|^| () | 7977f1d99f0238ffa2cd6eea528eb08442664c39 (2018-12-12 13:27:59) |
+| =GBRWrapperRcd= (RecoTauTag_antiElectronMVA_wGwGSF_EC) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_wGwGSF_EC== |
+|^| () | e3a1ecd20c91a6257f78b9a7718073d5969d0358 (2018-12-12 13:33:23) |
+| =GBRWrapperRcd= (RecoTauTag_antiElectronMVA_woGwGSF_BL) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_woGwGSF_BL== |
+|^| () | 214aef803b5ca492fd80aa9a6c6ebb42e328a04d (2018-12-12 13:26:36) |
+| =GBRWrapperRcd= (RecoTauTag_antiElectronMVA_woGwGSF_EC) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_woGwGSF_EC== |
+|^| () | 5459433c48e828be03f0ffe916ed525cdf5bea44 (2018-12-12 13:32:02) |
+| =GBRWrapperRcd= (RecoTauTag_tauIdMVAIsoDBnewDMwLT) | ====  | ==RecoTauTag_tauIdMVAIsoDBnewDMwLT2017v2== |
+|^| () | 5a32c6c82190c3410a39083e90650a40ef3642fe (2018-03-26 11:15:10) |
+| =GBRWrapperRcd= (RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT2017v2== |
+|^| () | 550c63bdffae5077173ef6ee6d1ecc6658341295 (2018-03-26 11:13:11) |
+| =GBRWrapperRcd= (RecoTauTag_tauIdMVAIsoDBoldDMwLT) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMwLT2017v2== |
+|^| () | 6895dfd329a7ac1fdff7a0890b46dab0eed315b9 (2018-03-26 11:11:32) |
+| =GBRWrapperRcd= (btag_CombinedMVAv2_BDT) | ====  | ==btag_CombinedMVAv2_BDT_TMVAv420_74X_v1== |
+|^| () | 3a5fbde965ef5e0230470b28e428e55a49e85734 (2015-09-14 19:25:26) |
+| =GBRWrapperRcd= (btag_SoftPFElectron_BDT) | ====  | ==btag_SoftPFElectron_BDT_TMVAv420_74X_v1== |
+|^| () | 6ca97a8b434066fd2a6d05717480b48a759b56b0 (2015-09-14 19:26:02) |
+| =GBRWrapperRcd= (btag_SoftPFMuon_BDT) | ====  | ==btag_SoftPFMuon_BDT_TMVAv420_74X_v1== |
+|^| () | ef79d54557b509914a9d9245fc8f4799be10f2f7 (2015-09-14 19:26:38) |
+| =GBRWrapperRcd= (gedelectron_EBCorrection_offline_v1) | ====  | ==gedelectron_EBCorrection_offline_v1== |
+|^| () | b93be8d5eb747d895f08f05de3f7b7c7ee33e0c4 (2014-01-27 13:42:17) |
+| =GBRWrapperRcd= (gedelectron_EBUncertainty_offline_v1) | ====  | ==gedelectron_EBUncertainty_offline_v1== |
+|^| () | d380f560dbe83b0cf38ca6c179c3abbba5787eb2 (2014-01-27 13:42:52) |
+| =GBRWrapperRcd= (gedelectron_EECorrection_offline_v1) | ====  | ==gedelectron_EECorrection_offline_v1== |
+|^| () | 7a56b55039e60a1a05a2567aa2afbd3965cf6757 (2014-01-27 13:42:56) |
+| =GBRWrapperRcd= (gedelectron_EEUncertainty_offline_v1) | ====  | ==gedelectron_EEUncertainty_offline_v1== |
+|^| () | 66a472954e44de5a212a9f61bdba28d267069c57 (2014-01-27 13:45:32) |
+| =GBRWrapperRcd= (gedelectron_p4combination_25ns) | ====  | ==GBRForestD_gedelectron_p4combination_25ns_v0== |
+|^| () | c14d9febd226c023b020c15cadaadc17221461c0 (2015-08-07 16:33:37) |
+| =GBRWrapperRcd= (gedelectron_p4combination_50ns) | ====  | ==GBRForestD_gedelectron_p4combination_50ns_v0== |
+|^| () | 7f3d016444b1802d1aa6b682381006505bc48997 (2015-08-07 16:33:34) |
+| =GBRWrapperRcd= (gedelectron_p4combination_offline) | ====  | ==gedelectron_p4combination_offline== |
+|^| () | df2341c882cfd45dd96ad930a87ed6d5fa5eba3d (2013-12-13 23:39:30) |
+| =GBRWrapperRcd= (gedphoton_EBCorrection_offline_v1) | ====  | ==gedphoton_EBCorrection_offline_v1== |
+|^| () | 5a77d2967e9e6b4dacf4292abbdd3b3a7722a723 (2014-01-27 13:54:52) |
+| =GBRWrapperRcd= (gedphoton_EBUncertainty_offline_v1) | ====  | ==gedphoton_EBUncertainty_offline_v1== |
+|^| () | b1423f0ec9ba9633adab4f4e79f1e1e9845b3884 (2014-01-27 13:54:56) |
+| =GBRWrapperRcd= (gedphoton_EECorrection_offline_v1) | ====  | ==gedphoton_EECorrection_offline_v1== |
+|^| () | 06c3f73666ed0c84e6abba9688b9106fd52595e7 (2014-01-27 13:54:49) |
+| =GBRWrapperRcd= (gedphoton_EEUncertainty_offline_v1) | ====  | ==gedphoton_EEUncertainty_offline_v1== |
+|^| () | 4497086e4742f8c97005184831426e6541fa83c6 (2014-01-27 13:55:31) |
+| =GBRWrapperRcd= (pfscecal_EBCorrection_offline_v1) | ====  | ==pfscecal_EBCorrection_offline_v1== |
+|^| () | 4821b4ac40843e29d473afbde8df264d716f261e (2014-01-27 13:30:53) |
+| =GBRWrapperRcd= (pfscecal_EECorrection_offline_v1) | ====  | ==pfscecal_EECorrection_offline_v1== |
+|^| () | 34537ac9324e9875a2a9c1ae5abaf8aabd3e7c40 (2014-01-27 13:34:33) |
+| =GBRWrapperRcd= (wgbrph_EBCorrection) | ====  | ==GBRForest_EBCorrection_v0_offline== |
+|^| () | 5e0a36418d4966c133bf52910f29670d4042504c (2011-12-19 23:53:06) |
+| =GBRWrapperRcd= (wgbrph_EBUncertainty) | ====  | ==GBRForest_EBUncertainty_v0_offline== |
+|^| () | 7e984de1e37e2142c7d5fc7ea354f7ead1fa3971 (2011-12-19 23:53:29) |
+| =GBRWrapperRcd= (wgbrph_EECorrection) | ====  | ==GBRForest_EECorrection_v0_offline== |
+|^| () | 628dafb216a63de0565ca7c81252612ec533b1e2 (2011-12-19 23:53:42) |
+| =GBRWrapperRcd= (wgbrph_EEUncertainty) | ====  | ==GBRForest_EEUncertainty_v0_offline== |
+|^| () | 7f56977a85acbdbc18f20dcf2daa98277f9335ee (2011-12-19 23:54:13) |
+| =HcalElectronicsMapRcd= (full) | ====  | ==HcalElectronicsMap_full_v2.0_hlt== |
+|^| () | ff3dd22451e32ed3c663e149cb9ed0a4e8675089 (2016-03-04 16:10:49) |
+| =HeavyIonRcd= (HFhits) | ====  | ==CentralityTable_HFhits40_Glauber2010A_v3_effB_offline== |
+|^| () | 950207a28861bf60896a664e75a07bda203adfa5 (2011-11-18 21:40:32) |
+| =HeavyIonRcd= (HFtowers) | ====  | ==CentralityTable_HFtowers200_v0_express== |
+|^| () | 01032fbd758311f5f7996f0723ea2ab1c89a5a13 (2015-11-27 13:58:09) |
+| =HeavyIonRcd= (PixelHits) | ====  | ==CentralityTable_PixelHits40_Glauber2010A_v3_effB_offline== |
+|^| () | 9122591b5b9cb187c68d558cc251c234d4dd8874 (2011-11-18 21:40:35) |
+| =HeavyIonRcd= (PixelTracks) | ====  | ==CentralityTable_PixelTracks40_Glauber2010A_v0_effB_offline== |
+|^| () | a9aa3223783f23f737505255a7f64d3c3508b173 (2011-11-18 21:40:37) |
+| =HeavyIonRcd= (Tracks) | ====  | ==CentralityTable_Tracks40_Glauber2010A_v0_effB_offline== |
+|^| () | 1bdfb352579bfa9b7206be4f0695396b086aea1d (2011-11-18 21:40:47) |
+| =JetCorrectionsRecord= (AK10PF) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK10PF== |
+|^| () | b6e2135b9ba4ac76d02b302a40687d10e5b30f56 (2014-09-30 16:43:47) |
+| =JetCorrectionsRecord= (AK10PFchs) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK10PFchs== |
+|^| () | 59df451b08f912e4ec50ab829b92718f009e7c5c (2014-09-30 16:42:23) |
+| =JetCorrectionsRecord= (AK1PF) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK1PF== |
+|^| () | f8a3a82c44189c4cadd509bae93fd958d2dd2ec7 (2014-09-30 16:41:40) |
+| =JetCorrectionsRecord= (AK1PFchs) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK1PFchs== |
+|^| () | ac8b4da571b865a676c08423ab642270e22a188b (2014-09-30 16:41:23) |
+| =JetCorrectionsRecord= (AK2PF) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK2PF== |
+|^| () | 255fd680c5017e83d352b2b3c6f244dc22347cad (2014-09-30 16:41:16) |
+| =JetCorrectionsRecord= (AK2PFchs) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK2PFchs== |
+|^| () | e708985113f95428c53616c79596425310ca6628 (2014-09-30 16:42:41) |
+| =JetCorrectionsRecord= (AK3PF) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK3PF== |
+|^| () | 5970d8b7f5e3d0566d5aec3476365ca621baafcd (2014-09-30 16:41:29) |
+| =JetCorrectionsRecord= (AK3PFTowers_hiGoodTightTracks) | ====  | ==JetCorrectorParametersCollection_AK3PFTowers_hiGoodTightTracks_v0_offline== |
+|^| () | 4aafdc40b683aa264b86fb15598ad499b8b910fb (2011-11-11 14:50:09) |
+| =JetCorrectionsRecord= (AK3PFchs) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK3PFchs== |
+|^| () | adc7203305f27fe4782ae78c267c2a21d2581240 (2014-09-30 16:42:34) |
+| =JetCorrectionsRecord= (AK4Calo) | ====  | ==JetCorrectorParametersCollection_Summer16_23Sep2016AllV4_DATA_AK4Calo== |
+|^| () | aa23946fa2a467fbd5d2dfb0dca187af52f8aa4d (2017-01-31 15:35:32) |
+| =JetCorrectionsRecord= (AK4JPT) | ====  | ==JetCorrectorParametersCollection_Summer16_23Sep2016AllV4_DATA_AK4JPT== |
+|^| () | b4b1126270f938e71f2a99abf2a39d8b094f2d0e (2017-01-31 15:35:38) |
+| =JetCorrectionsRecord= (AK4PF) | ====  | ==JetCorrectorParametersCollection_Summer16_23Sep2016AllV4_DATA_AK4PF== |
+|^| () | 8230fc27d082d075c6da1bffdd058822e3a2bf49 (2017-01-31 15:35:12) |
+| =JetCorrectionsRecord= (AK4PFPuppi) | ====  | ==JetCorrectorParametersCollection_Summer16_23Sep2016AllV4_DATA_AK4PFPuppi== |
+|^| () | e03e9aba10078fb17133ec27fdedc3a47b0b3c17 (2022-07-15 14:25:31) |
+| =JetCorrectionsRecord= (AK4PFTowers_hiGoodTightTracks) | ====  | ==JetCorrectorParametersCollection_AK4PFTowers_hiGoodTightTracks_v0_offline== |
+|^| () | 66c1f43f7866e4347c8782f9513b5614dc1fe239 (2011-11-11 14:50:23) |
+| =JetCorrectionsRecord= (AK4PFchs) | ====  | ==JetCorrectorParametersCollection_Summer16_23Sep2016AllV4_DATA_AK4PFchs== |
+|^| () | 2a1f983a33775f87e179a75189e1f7394247ee42 (2022-07-15 14:30:17) |
+| =JetCorrectionsRecord= (AK5Calo) | ==JetCorrectorParametersCollection_AK5Calo_v1_hlt==  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK5Calo== |
+|^|65edb7a339c4abefb534d879d38929f432fcad47 (2012-03-26 20:40:36) | d148a0ee827a7d9f7492a36afbce04c428c17fb1 (2014-09-30 16:40:22) |
+| =JetCorrectionsRecord= (AK5PF) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK5PF== |
+|^| () | 7484fd30ef4bc00c17c8b418996fb85a3dbcdc2b (2014-09-30 16:40:25) |
+| =JetCorrectionsRecord= (AK5PFTowers_hiGoodTightTracks) | ====  | ==JetCorrectorParametersCollection_AK5PFTowers_hiGoodTightTracks_v0_offline== |
+|^| () | a46443a514ab945e1c119e7f89db32214192ed19 (2011-11-11 15:10:08) |
+| =JetCorrectionsRecord= (AK5PFchs) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK5PFchs== |
+|^| () | 0faa585ff82c1ee2d8980234b6c2ad3ea70db739 (2014-09-30 16:40:11) |
+| =JetCorrectionsRecord= (AK6PF) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK6PF== |
+|^| () | dfc1513543a9f18e69765976b3eff443042350ab (2014-09-30 16:41:19) |
+| =JetCorrectionsRecord= (AK6PFchs) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK6PFchs== |
+|^| () | 893669068931ad9afa5b84a78b136f85c36d6dcd (2014-09-30 16:42:20) |
+| =JetCorrectionsRecord= (AK7Calo) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK7Calo== |
+|^| () | 16a27695d089891cb02f01b87de89a54ca5e3c6b (2014-09-30 16:40:18) |
+| =JetCorrectionsRecord= (AK7PF) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK7PF== |
+|^| () | 88d759fc190396387f3652b5e585706615f5bdd0 (2014-09-30 16:40:14) |
+| =JetCorrectionsRecord= (AK7PFchs) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK7PFchs== |
+|^| () | 3bd095c4126e609733dd73ed3335a68901909c57 (2014-09-30 16:40:29) |
+| =JetCorrectionsRecord= (AK8PF) | ====  | ==JetCorrectorParametersCollection_Summer16_23Sep2016AllV4_DATA_AK8PF== |
+|^| () | db7365e13c6a9981ae0c268f9986b491182742ac (2017-01-31 15:35:45) |
+| =JetCorrectionsRecord= (AK8PFPuppi) | ====  | ==JetCorrectorParametersCollection_Summer16_23Sep2016AllV4_DATA_AK8PFPuppi== |
+|^| () | 28c2e48782e127e0adf5eabc4db4e97cbb0f94af (2022-07-15 14:28:20) |
+| =JetCorrectionsRecord= (AK8PFchs) | ====  | ==JetCorrectorParametersCollection_Summer16_23Sep2016AllV4_DATA_AK8PFchs== |
+|^| () | 9e4898431f908dbbddac89564a8de15d8043f73e (2017-01-31 15:35:51) |
+| =JetCorrectionsRecord= (AK9PF) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK9PF== |
+|^| () | cc9cdb2727176d6895f3ca887446e828ea2e780e (2014-09-30 16:41:13) |
+| =JetCorrectionsRecord= (AK9PFchs) | ====  | ==JetCorrectorParametersCollection_CSA14_V4_DATA_AK9PFchs== |
+|^| () | 5d6359e673b127a1edc48c5deddd9df24326602a (2014-09-30 16:42:30) |
+| =JetCorrectionsRecord= (IC5Calo_2760GeV) | ====  | ==JetCorrectorParametersCollection_IC5Calo_2760GeV_v0_offline== |
+|^| () | a6c51050e297d90503780dd3d811ee6156e3c57e (2011-11-11 15:00:05) |
+| =JetCorrectionsRecord= (UETable_Calo) | ====  | ==UETableCompatibilityFormat_Calo_v00_express== |
+|^| () | 9bc644d7075aded426bea5feca65db9c9ecfe550 (2015-11-27 22:40:24) |
+| =JetCorrectionsRecord= (UETable_PF) | ====  | ==UETableCompatibilityFormat_PF_v00_express== |
+|^| () | 640c744c798d7aefb800e2c6127f94b94c1e1c85 (2015-11-27 22:40:21) |
+| =JetResolutionRcd= (AK4PFPuppi_phi) | ====  | ==JR_PhiResolution_AK4PFPuppi_v0_express== |
+|^| () | b4461111bbb47c5be7169cc2f5a82fc0784b77d5 (2016-09-22 21:38:54) |
+| =JetResolutionRcd= (AK4PFPuppi_pt) | ====  | ==JR_PtResolution_AK4PFPuppi_v0_express== |
+|^| () | 719a999e91bd1605d613f6bb6dee7a94c29a3efb (2016-09-22 21:39:03) |
+| =JetResolutionRcd= (AK4PF_phi) | ====  | ==JR_PhiResolution_AK4PF_v0_express== |
+|^| () | 3fda6575d703c623338f26c88c548b94d68bdec5 (2016-09-22 21:39:17) |
+| =JetResolutionRcd= (AK4PF_pt) | ====  | ==JR_PtResolution_AK4PF_v0_express== |
+|^| () | 7c1eea7ae4408182a0f1a8d7c7350f9f4722717c (2016-09-22 21:39:30) |
+| =JetResolutionRcd= (AK4PFchs_phi) | ====  | ==JR_PhiResolution_AK4PFchs_v0_express== |
+|^| () | 358ecbefe4082723000ca93f70014a28f7c0a5c1 (2016-09-22 21:39:44) |
+| =JetResolutionRcd= (AK4PFchs_pt) | ====  | ==JR_PtResolution_AK4PFchs_v0_express== |
+|^| () | ee60a58c9a73406d5b8a8e541cc3270a1691417a (2016-09-22 21:39:53) |
+| =JetResolutionRcd= (AK8PFPuppi_phi) | ====  | ==JR_PhiResolution_AK8PFPuppi_v0_express== |
+|^| () | bce4443895cb41ba9015b49f6f1491dd1fdbb26c (2016-09-22 21:40:01) |
+| =JetResolutionRcd= (AK8PFPuppi_pt) | ====  | ==JR_PtResolution_AK8PFPuppi_v0_express== |
+|^| () | c642f265bf099aa8aebdc60f7328ca89af7a1455 (2016-09-22 21:40:10) |
+| =JetResolutionRcd= (AK8PF_phi) | ====  | ==JR_PhiResolution_AK8PF_v0_express== |
+|^| () | 1b9137562d9e04d1354d8d1393b8fa9c88616bcd (2016-09-22 21:40:19) |
+| =JetResolutionRcd= (AK8PF_pt) | ====  | ==JR_PtResolution_AK8PF_v0_express== |
+|^| () | ae6315503fee8825c5a483561559026686708720 (2016-09-22 21:40:27) |
+| =JetResolutionRcd= (AK8PFchs_phi) | ====  | ==JR_PhiResolution_AK8PFchs_v0_express== |
+|^| () | da733443de9d0e14a8ae988805878bcc46e26b4b (2016-09-22 21:40:36) |
+| =JetResolutionRcd= (AK8PFchs_pt) | ====  | ==JR_PtResolution_AK8PFchs_v0_express== |
+|^| () | 306400c227b8ae99cc5094cd84d713a54fc7b7fb (2016-09-22 21:42:22) |
+| =JetResolutionScaleFactorRcd= (AK4PF) | ====  | ==JR_SF_AK4PF_v0_express== |
+|^| () | 9640ece9af8f1831a8cdfe648251092feae3b91e (2016-09-22 21:41:13) |
+| =JetResolutionScaleFactorRcd= (AK4PFPuppi) | ====  | ==JR_SF_AK4PFPuppi_v0_express== |
+|^| () | 9640ece9af8f1831a8cdfe648251092feae3b91e (2016-09-22 21:41:22) |
+| =JetResolutionScaleFactorRcd= (AK4PFchs) | ====  | ==JR_SF_AK4PFchs_v0_express== |
+|^| () | 9640ece9af8f1831a8cdfe648251092feae3b91e (2016-09-22 21:41:29) |
+| =JetResolutionScaleFactorRcd= (AK8PF) | ====  | ==JR_SF_AK8PF_v0_express== |
+|^| () | 9640ece9af8f1831a8cdfe648251092feae3b91e (2016-09-22 21:41:38) |
+| =JetResolutionScaleFactorRcd= (AK8PFPuppi) | ====  | ==JR_SF_AK8PFPuppi_v0_express== |
+|^| () | 9640ece9af8f1831a8cdfe648251092feae3b91e (2016-09-22 21:41:48) |
+| =JetResolutionScaleFactorRcd= (AK8PFchs) | ====  | ==JR_SF_AK8PFchs_v0_express== |
+|^| () | 9640ece9af8f1831a8cdfe648251092feae3b91e (2016-09-22 21:41:56) |
+| =L1CaloGeometryRecord= (-) | ==L1CaloGeometry_CRAFT09_hlt==  | ==== |
+|^|0691baf38bdaa9ac9adc4271e80ebcb08402483b (2008-01-01 00:00:42) |  () |
+| =LHCInfoRcd= (-) | ==LHCInfo_hlt_forPPS==  | ==LHCInfoEndFill_Run3_v0== |
+|^|e97d27f2973ca0f2c303f3266fedf99dc4f1c24d (2021-09-30 18:04:15) |  () |
+| =PFCalibrationRcd= (-) | ====  | ==PFCalibration_express_prompt_v1== |
+|^| () | 148f185229cd6fd81e9261fb57776478bbe7cb14 (2022-02-23 12:59:25) |
+| =PhotonConversionMVAComputerRcd= (-) | ====  | ==EgammaMVA_v1_mc== |
+|^| () | 190251da59bdd968a2d7fa7fe1e89771b068653e (2010-02-22 18:35:22) |
+| =PhysicsTFormulaPayloadRcd= (RecoTauTag_tauIdMVAIsoDBnewDMwLT_mvaOutput_normalization) | ====  | ==RecoTauTag_tauIdMVAIsoDBnewDMwLT2017v2_mvaOutput_normalization== |
+|^| () | 5b2cfaa34f018c96f9a332f834b2ac9b23456e81 (2018-03-26 11:16:35) |
+| =PhysicsTFormulaPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT_mvaOutput_normalization) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT2017v2_mvaOutput_normalization== |
+|^| () | 60b8329c582892add31afe3f5ebbccf712c5671c (2018-03-26 11:14:58) |
+| =PhysicsTFormulaPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMwLT_mvaOutput_normalization) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMwLT2017v2_mvaOutput_normalization== |
+|^| () | 1b21d47a18691bcde5eb861beba3995f439210cc (2018-03-26 11:13:01) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_wGwoGSF_BL_Loose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_wGwoGSF_BL_WPeff90== |
+|^| () | f09f695d7e09169e58c3e0a0bb8b8a22576f0c83 (2018-12-12 13:25:41) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_wGwoGSF_BL_Medium) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_wGwoGSF_BL_WPeff80== |
+|^| () | 23c24c89cf711e577ec0ce9e8a846d3a9be71e37 (2018-12-12 13:25:54) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_wGwoGSF_BL_Tight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_wGwoGSF_BL_WPeff70== |
+|^| () | fd4c1a9f129a308646b95efa5c75f36afad21324 (2018-12-12 13:26:08) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_wGwoGSF_BL_VLoose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_wGwoGSF_BL_WPeff98== |
+|^| () | 64604ea66b3ebb287dfa3b6e6e4acd486a37a72a (2018-12-12 13:25:13) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_wGwoGSF_BL_VTight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_wGwoGSF_BL_WPeff60== |
+|^| () | 7db19a07400b26db438e395dbce17f1be3c121f2 (2018-12-12 13:26:21) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_wGwoGSF_EC_Loose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_wGwoGSF_EC_WPeff90== |
+|^| () | 70e23cdd7b05a84148e6fc19d7b063208f486dc7 (2018-12-12 13:31:07) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_wGwoGSF_EC_Medium) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_wGwoGSF_EC_WPeff80== |
+|^| () | fe8bd9eb6c3d1ca71a28a27e702e99f1155984e3 (2018-12-12 13:31:21) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_wGwoGSF_EC_Tight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_wGwoGSF_EC_WPeff70== |
+|^| () | ae72b51fd46594271670394ad5d9e8bc81c56666 (2018-12-12 13:31:37) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_wGwoGSF_EC_VLoose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_wGwoGSF_EC_WPeff98== |
+|^| () | 5d8d678b31ba73a871205f58236a004574e7b072 (2018-12-12 13:30:55) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_wGwoGSF_EC_VTight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_wGwoGSF_EC_WPeff60== |
+|^| () | 9adb1d76a81c5a270102f99e2a7fa726fd9e996a (2018-12-12 13:31:50) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_woGwoGSF_BL_Loose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_woGwoGSF_BL_WPeff90== |
+|^| () | 875247b70d6447096155f5a511c6a6845d5a9b8b (2018-12-12 13:23:44) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_woGwoGSF_BL_Medium) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_woGwoGSF_BL_WPeff80== |
+|^| () | ba427dcfd9fc28c4911e1ee27320df55d92e3615 (2018-12-12 13:36:30) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_woGwoGSF_BL_Tight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_woGwoGSF_BL_WPeff70== |
+|^| () | 78f1614e6c4fb7d70499165a868d129de3d2a4e8 (2018-12-12 13:24:21) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_woGwoGSF_BL_VLoose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_woGwoGSF_BL_WPeff98== |
+|^| () | 28e87826a73a518ec1faeea3d7fd09aee364bdef (2018-12-12 13:23:30) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_woGwoGSF_BL_VTight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_woGwoGSF_BL_WPeff60== |
+|^| () | dcc0995645cfe45900c192bf089073917816f84c (2018-12-12 13:24:44) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_woGwoGSF_EC_Loose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_woGwoGSF_EC_WPeff90== |
+|^| () | 0ae88ea6828a0b07820a4a9643ebc2f67c3734e1 (2018-12-12 13:29:41) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_woGwoGSF_EC_Medium) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_woGwoGSF_EC_WPeff80== |
+|^| () | 33fc60353197b936d906615460c98ff9cc2d9654 (2018-12-12 13:29:57) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_woGwoGSF_EC_Tight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_woGwoGSF_EC_WPeff70== |
+|^| () | 92affebd5d2fa591adf0e1f6d7d68dfe1f52a997 (2018-12-12 13:30:09) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_woGwoGSF_EC_VLoose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_woGwoGSF_EC_WPeff98== |
+|^| () | 13afc610292c09eb15177724abc04dea4860c139 (2018-12-12 13:29:29) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_NoEleMatch_woGwoGSF_EC_VTight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_NoEleMatch_woGwoGSF_EC_WPeff60== |
+|^| () | 3883a8d2b48c64a1905c3c76fa7075bf9c49b523 (2018-12-12 13:30:21) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_wGwGSF_BL_Loose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_wGwGSF_BL_WPeff90== |
+|^| () | 279871d147d0503d27f3ec181fc2d5fa9663914a (2018-12-12 13:28:23) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_wGwGSF_BL_Medium) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_wGwGSF_BL_WPeff80== |
+|^| () | 11830e5acbc1e29f05f13520f548e850bd37518f (2018-12-12 13:28:41) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_wGwGSF_BL_Tight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_wGwGSF_BL_WPeff70== |
+|^| () | 39015f500d4880443a0dbc3ad8f60b608ca7bb45 (2018-12-12 13:28:54) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_wGwGSF_BL_VLoose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_wGwGSF_BL_WPeff98== |
+|^| () | c639521fd848502b3ad9d6c2bed046aae5bf47a3 (2018-12-12 13:28:11) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_wGwGSF_BL_VTight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_wGwGSF_BL_WPeff60== |
+|^| () | 8fbc955425fe518b83a9537e351d1147c08caa3a (2018-12-12 13:29:06) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_wGwGSF_EC_Loose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_wGwGSF_EC_WPeff90== |
+|^| () | c44576c420c0b89888bff1297038ff32ed360aab (2018-12-12 13:33:48) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_wGwGSF_EC_Medium) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_wGwGSF_EC_WPeff80== |
+|^| () | 0566041adbe74817b2b19e1a8da1638e519e7d77 (2018-12-12 13:34:01) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_wGwGSF_EC_Tight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_wGwGSF_EC_WPeff70== |
+|^| () | 9ac3a61e640433df4e8dfb46ba12cd89d9f1377d (2018-12-12 13:34:12) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_wGwGSF_EC_VLoose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_wGwGSF_EC_WPeff98== |
+|^| () | 90e242d6321b347bf20f14b288f548357b549b3a (2018-12-12 13:33:35) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_wGwGSF_EC_VTight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_wGwGSF_EC_WPeff60== |
+|^| () | 2b767f0bc8571d95add176dfa9d26e233d18e2ac (2018-12-12 13:34:24) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_woGwGSF_BL_Loose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_woGwGSF_BL_WPeff90== |
+|^| () | e5004d5e103bb700343f6e0d27938bde8ad94757 (2018-12-12 13:27:04) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_woGwGSF_BL_Medium) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_woGwGSF_BL_WPeff80== |
+|^| () | 760f0240a188d00927c73d02b040bd29c29a480e (2018-12-12 13:27:19) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_woGwGSF_BL_Tight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_woGwGSF_BL_WPeff70== |
+|^| () | 7d6b4e7a8fb08532e9816d968600eea53671b915 (2018-12-12 13:27:31) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_woGwGSF_BL_VLoose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_woGwGSF_BL_WPeff98== |
+|^| () | 2671a72d3bd6901bf94add78f2b6a4e7e653b059 (2018-12-12 13:26:51) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_woGwGSF_BL_VTight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_woGwGSF_BL_WPeff60== |
+|^| () | 1cb5cd5f43523aaebca04d7d811f1fb512e94804 (2018-12-12 13:27:48) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_woGwGSF_EC_Loose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_woGwGSF_EC_WPeff90== |
+|^| () | 0ab9ada0e0ada1b1fb4d9b057cfafd4331692f4b (2018-12-12 13:32:29) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_woGwGSF_EC_Medium) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_woGwGSF_EC_WPeff80== |
+|^| () | b740d79b08487301f9cb0032cdb7f574c2bf0df4 (2018-12-12 13:32:45) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_woGwGSF_EC_Tight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_woGwGSF_EC_WPeff70== |
+|^| () | 50294e0e18953f07b1563106c034642629c7e08e (2018-12-12 13:32:57) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_woGwGSF_EC_VLoose) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_woGwGSF_EC_WPeff98== |
+|^| () | 0ec05b0a2ae23caaf44cf0f1148396ade2a5cff2 (2018-12-12 13:32:14) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_antiElectronMVA_woGwGSF_EC_VTight) | ====  | ==RecoTauTag_antiElectronMVA6v3_noeveto_gbr_woGwGSF_EC_WPeff60== |
+|^| () | a4aa611557f5472a67918f2e6e57698fa948bd25 (2018-12-12 13:33:11) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBnewDMwLT_Loose) | ====  | ==RecoTauTag_tauIdMVAIsoDBnewDMwLT2017v2_WPEff80== |
+|^| () | f24577adfc9d4d550b7e6f0437f4b2333855370a (2018-03-26 11:15:46) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBnewDMwLT_Medium) | ====  | ==RecoTauTag_tauIdMVAIsoDBnewDMwLT2017v2_WPEff70== |
+|^| () | da4e4c700543d214a7e86ee72b533045ddd6ae48 (2018-03-26 11:15:56) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBnewDMwLT_Tight) | ====  | ==RecoTauTag_tauIdMVAIsoDBnewDMwLT2017v2_WPEff60== |
+|^| () | d224e43b401e4574499f5f8042a99e75b450a907 (2018-03-26 11:16:05) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBnewDMwLT_VLoose) | ====  | ==RecoTauTag_tauIdMVAIsoDBnewDMwLT2017v2_WPEff90== |
+|^| () | f4d1955fd03b42ce71d4d58eddedf1df4a0ea9e1 (2018-03-26 11:15:35) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBnewDMwLT_VTight) | ====  | ==RecoTauTag_tauIdMVAIsoDBnewDMwLT2017v2_WPEff50== |
+|^| () | 8b96e98070a40d676ec181877ee8135ad3d2b835 (2018-03-26 11:16:14) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBnewDMwLT_VVLoose) | ====  | ==RecoTauTag_tauIdMVAIsoDBnewDMwLT2017v2_WPEff95== |
+|^| () | 3014a305eb7decb29391fade782a90420adc710e (2018-03-26 11:15:25) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBnewDMwLT_VVTight) | ====  | ==RecoTauTag_tauIdMVAIsoDBnewDMwLT2017v2_WPEff40== |
+|^| () | bdc8379045c1e12049741e0bb400db527ce81245 (2018-03-26 11:16:25) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT_Loose) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT2017v2_WPEff80== |
+|^| () | 9a490eaad304818f649c4245e11a31b24e4ac09e (2018-03-26 11:13:52) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT_Medium) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT2017v2_WPEff70== |
+|^| () | bf88e79995559cf67184faffa6622d6e5eff4608 (2018-03-26 11:14:10) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT_Tight) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT2017v2_WPEff60== |
+|^| () | da35611029eef7ae027f9b47805c103e76522eaf (2018-03-26 11:14:21) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT_VLoose) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT2017v2_WPEff90== |
+|^| () | e2e9d6931c956734495cca9b0c83cb892a06cab8 (2018-03-26 11:13:30) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT_VTight) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT2017v2_WPEff50== |
+|^| () | 50bbfff0d7106a283d6ec6bbe0954d28d1dd53a5 (2018-03-26 11:14:33) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT_VVLoose) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT2017v2_WPEff95== |
+|^| () | 11ee2ab64d3a4c241acb9ae772a2763cc875e494 (2018-03-26 11:13:21) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT_VVTight) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMdR0p3wLT2017v2_WPEff40== |
+|^| () | 3ce291852b64f9d04f1619b930603dca457c5297 (2018-03-26 11:14:45) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMwLT_Loose) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMwLT2017v2_WPEff80== |
+|^| () | 407c012c6b027889fe079c44bef9305d733c91a2 (2018-03-26 11:12:06) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMwLT_Medium) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMwLT2017v2_WPEff70== |
+|^| () | b8eae60cdb8fd37179e55dd2d8374ad2d441c707 (2018-03-26 11:12:15) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMwLT_Tight) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMwLT2017v2_WPEff60== |
+|^| () | c57058b3e03d6686efe7e94b56e4b77470730574 (2018-03-26 11:12:26) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMwLT_VLoose) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMwLT2017v2_WPEff90== |
+|^| () | 4b8ca1c3a4d7ab693f8232edefca55686d7f640c (2018-03-26 11:11:54) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMwLT_VTight) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMwLT2017v2_WPEff50== |
+|^| () | 972333af7dfcf0b8e2437310f3b89263cf20d546 (2018-03-26 11:12:38) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMwLT_VVLoose) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMwLT2017v2_WPEff95== |
+|^| () | b8014929b8f3f9b0e9fe59f4d7e9a14b79179941 (2018-03-26 11:11:43) |
+| =PhysicsTGraphPayloadRcd= (RecoTauTag_tauIdMVAIsoDBoldDMwLT_VVTight) | ====  | ==RecoTauTag_tauIdMVAIsoDBoldDMwLT2017v2_WPEff40== |
+|^| () | a1d0c1a1fcdb0d9a536adb80b0b1fd4e70857743 (2018-03-26 11:12:50) |
+| =QGLikelihoodRcd= (QGL_AK4PF) | ====  | ==QGLikelihoodObject_v1_AK4PF== |
+|^| () | 2efdf218ce155d51b89227ef1ea0023ca7c1ff52 (2015-02-07 22:01:25) |
+| =QGLikelihoodRcd= (QGL_AK4PF_antib) | ====  | ==QGLikelihoodObject_v1_AK4PF_antib== |
+|^| () | 2bbd577b985458e2f7689b7ca74e9e47847a0746 (2015-02-07 22:02:27) |
+| =QGLikelihoodRcd= (QGL_AK4PFchs) | ====  | ==QGLikelihoodObject_v1_AK4PFchs== |
+|^| () | 23b8768d09d8a6d98c7ab07c79b7ccd7a438db0c (2015-02-07 22:02:36) |
+| =QGLikelihoodRcd= (QGL_AK4PFchs_antib) | ====  | ==QGLikelihoodObject_v1_AK4PFchs_antib== |
+|^| () | 373e5f6eb06de491da48fe37e9131a3880a90216 (2015-02-07 22:05:28) |
+| =RunInfoRcd= (-) | ==runinfo_start_31X_hlt==  | ==runinfo_31X_hlt== |
+|^|ff27c1cd0493c5f8a3788a96fc7ee543f7da4317 (2022-11-18 21:38:40) | 5e7ed7806b44e796ad6164eecdeaeb8ba1e8b48e (2022-11-18 21:40:47) |
+| =SiPixelQualityFromDbRcd= (-) | ==SiPixelQuality_v03_dup_hlt==  | ==SiPixelQuality_byPCL_prompt_v2== |
+|^|f1bf16b7eccec3ce85122e9ab6ae77ffe4243942 (2022-11-01 18:07:53) |  () |
+| =SiStripBadFiberRcd= (-) | ==SiStripBadChannel_FromOfflineCalibration_GR10_v1_hlt==  | ==SiStripBadChannel_FromOfflineCalibration_GR10_v1_prompt== |
+|^|bc8d3d63ffd80b100ca18c6e954250d50c564f33 (2010-01-29 16:42:04) | 6d604f0c5c66047ee5ee9087ab4dc6882d72349e (2022-11-18 22:04:51) |
+| =SiStripDetVOffRcd= (-) | ==SiStripDetVOff_GR10_v1_hlt==  | ==SiStripDetVOff_v6_prompt== |
+|^|0cabb996d62fa71beb2ae8b8c979e8e9f394d3a0 (2010-01-29 17:01:56) |  () |
+| =TauTagMVAComputerRcd= (-) | ====  | ==TauNeuralClassifier_v1_mc== |
+|^| () | 7b81ccac507fcdbbb842aa0004e5f6f83ad7d932 (2010-02-22 18:34:47) |
+| =TauTagMVAComputerRcd= (hpstanc) | ====  | ==MVAComputerContainer_hpstanc_v1== |
+|^| () | bc7dd5ff5c8ff61b57f03e31cfa93c536c6f4a64 (2011-01-21 14:39:52) |
+| =TrackerAlignmentRcd= (-) | ==TrackerAlignment_PCL_byRun_v0_hlt==  | ==TrackerAlignment_PCL_byRun_v2_express== |
+|^|93bbc5789077614bb599de67ccdd1975cde5fefe (2022-09-30 12:42:14) | 12e052953574c1e984a275b8362128fe8d7b9ce8 (2022-11-17 14:14:32) |

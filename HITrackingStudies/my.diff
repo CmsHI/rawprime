@@ -69,10 +69,10 @@ diff --git a/HITrackingStudies/HITrackingStudies/python/__pycache__/HITrackCorre
 new file mode 100644
 index 0000000..fde7b79
 Binary files /dev/null and b/HITrackingStudies/HITrackingStudies/python/__pycache__/HITrackCorrectionAnalyzer_cfi.cpython-39.pyc differ
-diff --git a/TrackingCode/HITrackingStudies/HITrackingStudies/test/run_PbPb_cfg.py b/HITrackingStudies/HITrackingStudies/test/run_PbPb_cfg.py
+diff --git a/TrackingCode/HITrackingStudies/HITrackingStudies/test/run_trkAna.py b/HITrackingStudies/HITrackingStudies/test/run_trkAna.py
 index 66cf8e2..14596ae 100644
---- a/TrackingCode/HITrackingStudies/HITrackingStudies/test/run_PbPb_cfg.py
-+++ b/HITrackingStudies/HITrackingStudies/test/run_PbPb_cfg.py
+--- a/TrackingCode/HITrackingStudies/HITrackingStudies/test/run_trkAna.py
++++ b/HITrackingStudies/HITrackingStudies/test/run_trkAna.py
 @@ -2,16 +2,14 @@ import FWCore.ParameterSet.Config as cms
  
  process = cms.Process('TRACKANA')
